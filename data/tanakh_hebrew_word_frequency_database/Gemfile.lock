@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gematria (0.0.6)
+    mini_portile2 (2.5.1)
+    nokogiri (1.11.3)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    racc (1.5.2)
+    sequel (5.43.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gematria
+  nokogiri
+  sequel
+
+BUNDLED WITH
+   2.1.4

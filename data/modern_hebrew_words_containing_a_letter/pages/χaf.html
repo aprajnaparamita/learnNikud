@@ -1,0 +1,3595 @@
+<html><head>
+<meta name="GENERATOR" content="Microsoft Visual Studio 6.0">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255">
+</head>
+<body dir="RTL" onload="CheckAll(true)">
+
+<script type="text/javascript">
+var total = 0.0;
+var totalWords = 0;
+
+function TotalUpdate(checkbox)
+{
+	if (checkbox.checked)
+	{
+		total += parseInt(checkbox.value);
+		totalWords++; 
+	}
+	else
+	{
+		total -= parseInt(checkbox.value);
+		totalWords--;
+	}
+	
+	document.totalresult.total.value = total;
+	document.totalresult.totalwords.value = totalWords;
+};
+
+function CheckAll(checked)
+{
+	var c = document.results.elements;
+	
+	total = 0.0;
+	totalWords = 0.0;
+	for (i=0;i<c.length;i++)
+	{
+		chk = c[i];
+		if (chk.id.match("counter")=="counter")
+		{
+			chk.checked = checked;
+			if (checked)
+			{
+				total += parseInt(chk.value);
+				totalWords++;
+			}
+		}
+	}
+	
+	document.totalresult.total.value = total;
+	document.totalresult.totalwords.value = totalWords;
+};
+
+</script>
+
+<table border="0" align="center">
+<tbody><tr><td align="center">
+<a href="http://huji.ac.il"><img alt="huji logo" hspace="0" src="images\huji.bmp" align="middle" border="0"></a></td></tr></tbody></table><p>נא הקלד את המילה שברצונך לחפש:</p><input name="search" value="כ"><br><br><input name="rootsearch" type="checkbox">	
+ חיפוש ע"פ שורש<br><br><input type="submit" id="submit1" name="submit1" value="חפש"><hr width="99%" color="SteelBlue" size="1">
+	תוצאות החיפוש:
+	<br><br><table>
+
+<form action="/wordfreq.asp" method="get" id="form1" name="form1"></form>
+
+
+
+
+
+
+
+
+
+	
+	
+	<form name="results"></form>
+	</table><table border="0" cellpadding="8" cellspacing="1">
+	<tbody><tr bgcolor="SkyBlue">
+	<th>מילה</th>
+	<th>מס' מופעים למיליון</th>
+	<th><input id="checkall" type="checkbox" onclick="CheckAll(this.checked)" checked=""> צבירה</th>
+	</tr>
+	
+		<tr bgcolor="AliceBlue">
+		
+		<td>כל</td>
+		<td align="center">3968</td>
+		<td><input value="3968" type="checkbox" id="counter0" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כי</td>
+		<td align="center">3248</td>
+		<td><input value="3248" type="checkbox" id="counter1" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כלכלה</td>
+		<td align="center">1862</td>
+		<td><input value="1862" type="checkbox" id="counter2" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כמו</td>
+		<td align="center">1648</td>
+		<td><input value="1648" type="checkbox" id="counter3" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כך</td>
+		<td align="center">1643</td>
+		<td><input value="1643" type="checkbox" id="counter4" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כדורגל</td>
+		<td align="center">1530</td>
+		<td><input value="1530" type="checkbox" id="counter5" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כדי</td>
+		<td align="center">1410</td>
+		<td><input value="1410" type="checkbox" id="counter6" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כדורסל</td>
+		<td align="center">1406</td>
+		<td><input value="1406" type="checkbox" id="counter7" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כבר</td>
+		<td align="center">1102</td>
+		<td><input value="1102" type="checkbox" id="counter8" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כמה</td>
+		<td align="center">1036</td>
+		<td><input value="1036" type="checkbox" id="counter9" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כתבות</td>
+		<td align="center">1002</td>
+		<td><input value="1002" type="checkbox" id="counter10" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>אך</td>
+		<td align="center">996</td>
+		<td><input value="996" type="checkbox" id="counter11" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכל</td>
+		<td align="center">958</td>
+		<td><input value="958" type="checkbox" id="counter12" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תמיכה</td>
+		<td align="center">956</td>
+		<td><input value="956" type="checkbox" id="counter13" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ארכיון</td>
+		<td align="center">873</td>
+		<td><input value="873" type="checkbox" id="counter14" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כותרות</td>
+		<td align="center">700</td>
+		<td><input value="700" type="checkbox" id="counter15" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כאן</td>
+		<td align="center">653</td>
+		<td><input value="653" type="checkbox" id="counter16" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>יכול</td>
+		<td align="center">640</td>
+		<td><input value="640" type="checkbox" id="counter17" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כולל</td>
+		<td align="center">632</td>
+		<td><input value="632" type="checkbox" id="counter18" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>צריך</td>
+		<td align="center">619</td>
+		<td><input value="619" type="checkbox" id="counter19" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכל</td>
+		<td align="center">607</td>
+		<td><input value="607" type="checkbox" id="counter20" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כן</td>
+		<td align="center">565</td>
+		<td><input value="565" type="checkbox" id="counter21" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>איך</td>
+		<td align="center">545</td>
+		<td><input value="545" type="checkbox" id="counter22" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכל</td>
+		<td align="center">540</td>
+		<td><input value="540" type="checkbox" id="counter23" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכתבה</td>
+		<td align="center">539</td>
+		<td><input value="539" type="checkbox" id="counter24" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכתבים</td>
+		<td align="center">523</td>
+		<td><input value="523" type="checkbox" id="counter25" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>דרך</td>
+		<td align="center">518</td>
+		<td><input value="518" type="checkbox" id="counter26" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>למערכת</td>
+		<td align="center">491</td>
+		<td><input value="491" type="checkbox" id="counter27" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כאשר</td>
+		<td align="center">454</td>
+		<td><input value="454" type="checkbox" id="counter28" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>עכשיו</td>
+		<td align="center">444</td>
+		<td><input value="444" type="checkbox" id="counter29" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כמעט</td>
+		<td align="center">428</td>
+		<td><input value="428" type="checkbox" id="counter30" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכבי</td>
+		<td align="center">415</td>
+		<td><input value="415" type="checkbox" id="counter31" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לך</td>
+		<td align="center">410</td>
+		<td><input value="410" type="checkbox" id="counter32" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בדרך</td>
+		<td align="center">382</td>
+		<td><input value="382" type="checkbox" id="counter33" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ולהתעדכן</td>
+		<td align="center">377</td>
+		<td><input value="377" type="checkbox" id="counter34" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כתבים</td>
+		<td align="center">377</td>
+		<td><input value="377" type="checkbox" id="counter35" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>היכנסו</td>
+		<td align="center">372</td>
+		<td><input value="372" type="checkbox" id="counter36" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מתוך</td>
+		<td align="center">368</td>
+		<td><input value="368" type="checkbox" id="counter37" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ועורכים</td>
+		<td align="center">367</td>
+		<td><input value="367" type="checkbox" id="counter38" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בתוך</td>
+		<td align="center">338</td>
+		<td><input value="338" type="checkbox" id="counter39" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כרטיסי</td>
+		<td align="center">326</td>
+		<td><input value="326" type="checkbox" id="counter40" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכל</td>
+		<td align="center">325</td>
+		<td><input value="325" type="checkbox" id="counter41" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כלל</td>
+		<td align="center">324</td>
+		<td><input value="324" type="checkbox" id="counter42" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לכם</td>
+		<td align="center">318</td>
+		<td><input value="318" type="checkbox" id="counter43" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכן</td>
+		<td align="center">306</td>
+		<td><input value="306" type="checkbox" id="counter44" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכי</td>
+		<td align="center">303</td>
+		<td><input value="303" type="checkbox" id="counter45" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תוכלו</td>
+		<td align="center">302</td>
+		<td><input value="302" type="checkbox" id="counter46" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מרכז</td>
+		<td align="center">297</td>
+		<td><input value="297" type="checkbox" id="counter47" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כיום</td>
+		<td align="center">296</td>
+		<td><input value="296" type="checkbox" id="counter48" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כולם</td>
+		<td align="center">289</td>
+		<td><input value="289" type="checkbox" id="counter49" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>במשך</td>
+		<td align="center">286</td>
+		<td><input value="286" type="checkbox" id="counter50" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כזה</td>
+		<td align="center">286</td>
+		<td><input value="286" type="checkbox" id="counter51" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תוך</td>
+		<td align="center">281</td>
+		<td><input value="281" type="checkbox" id="counter52" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>במהלך</td>
+		<td align="center">280</td>
+		<td><input value="280" type="checkbox" id="counter53" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכלל</td>
+		<td align="center">272</td>
+		<td><input value="272" type="checkbox" id="counter54" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לכך</td>
+		<td align="center">269</td>
+		<td><input value="269" type="checkbox" id="counter55" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>נכון</td>
+		<td align="center">268</td>
+		<td><input value="268" type="checkbox" id="counter56" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מערכת</td>
+		<td align="center">268</td>
+		<td><input value="268" type="checkbox" id="counter57" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ברכה</td>
+		<td align="center">266</td>
+		<td><input value="266" type="checkbox" id="counter58" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>יכולים</td>
+		<td align="center">250</td>
+		<td><input value="250" type="checkbox" id="counter59" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מדריך</td>
+		<td align="center">239</td>
+		<td><input value="239" type="checkbox" id="counter60" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כפי</td>
+		<td align="center">235</td>
+		<td><input value="235" type="checkbox" id="counter61" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כסף</td>
+		<td align="center">232</td>
+		<td><input value="232" type="checkbox" id="counter62" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תוכנית</td>
+		<td align="center">227</td>
+		<td><input value="227" type="checkbox" id="counter63" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כתב</td>
+		<td align="center">224</td>
+		<td><input value="224" type="checkbox" id="counter64" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>יכולה</td>
+		<td align="center">220</td>
+		<td><input value="220" type="checkbox" id="counter65" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כאלה</td>
+		<td align="center">219</td>
+		<td><input value="219" type="checkbox" id="counter66" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הדרך</td>
+		<td align="center">218</td>
+		<td><input value="218" type="checkbox" id="counter67" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בארכיון</td>
+		<td align="center">218</td>
+		<td><input value="218" type="checkbox" id="counter68" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כוח</td>
+		<td align="center">215</td>
+		<td><input value="215" type="checkbox" id="counter69" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכך</td>
+		<td align="center">214</td>
+		<td><input value="214" type="checkbox" id="counter70" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ולכן</td>
+		<td align="center">213</td>
+		<td><input value="213" type="checkbox" id="counter71" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כללי</td>
+		<td align="center">212</td>
+		<td><input value="212" type="checkbox" id="counter72" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כהן</td>
+		<td align="center">212</td>
+		<td><input value="212" type="checkbox" id="counter73" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שלך</td>
+		<td align="center">208</td>
+		<td><input value="208" type="checkbox" id="counter74" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כדאי</td>
+		<td align="center">203</td>
+		<td><input value="203" type="checkbox" id="counter75" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכן</td>
+		<td align="center">202</td>
+		<td><input value="202" type="checkbox" id="counter76" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כמובן</td>
+		<td align="center">197</td>
+		<td><input value="197" type="checkbox" id="counter77" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכנסת</td>
+		<td align="center">194</td>
+		<td><input value="194" type="checkbox" id="counter78" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ככל</td>
+		<td align="center">191</td>
+		<td><input value="191" type="checkbox" id="counter79" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כאילו</td>
+		<td align="center">189</td>
+		<td><input value="189" type="checkbox" id="counter80" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כרטיסים</td>
+		<td align="center">188</td>
+		<td><input value="188" type="checkbox" id="counter81" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כה</td>
+		<td align="center">187</td>
+		<td><input value="187" type="checkbox" id="counter82" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>רכב</td>
+		<td align="center">186</td>
+		<td><input value="186" type="checkbox" id="counter83" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>אוכל</td>
+		<td align="center">184</td>
+		<td><input value="184" type="checkbox" id="counter84" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>שכל</td>
+		<td align="center">183</td>
+		<td><input value="183" type="checkbox" id="counter85" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כנראה</td>
+		<td align="center">183</td>
+		<td><input value="183" type="checkbox" id="counter86" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כיצד</td>
+		<td align="center">180</td>
+		<td><input value="180" type="checkbox" id="counter87" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכל</td>
+		<td align="center">179</td>
+		<td><input value="179" type="checkbox" id="counter88" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כלי</td>
+		<td align="center">178</td>
+		<td><input value="178" type="checkbox" id="counter89" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>במרכז</td>
+		<td align="center">172</td>
+		<td><input value="172" type="checkbox" id="counter90" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ללכת</td>
+		<td align="center">163</td>
+		<td><input value="163" type="checkbox" id="counter91" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הפוך</td>
+		<td align="center">155</td>
+		<td><input value="155" type="checkbox" id="counter92" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תוכניות</td>
+		<td align="center">154</td>
+		<td><input value="154" type="checkbox" id="counter93" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכולל</td>
+		<td align="center">153</td>
+		<td><input value="153" type="checkbox" id="counter94" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ככה</td>
+		<td align="center">153</td>
+		<td><input value="153" type="checkbox" id="counter95" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המרכז</td>
+		<td align="center">152</td>
+		<td><input value="152" type="checkbox" id="counter96" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>החינוך</td>
+		<td align="center">151</td>
+		<td><input value="151" type="checkbox" id="counter97" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>צריכים</td>
+		<td align="center">151</td>
+		<td><input value="151" type="checkbox" id="counter98" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תהליך</td>
+		<td align="center">151</td>
+		<td><input value="151" type="checkbox" id="counter99" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כעת</td>
+		<td align="center">150</td>
+		<td><input value="150" type="checkbox" id="counter100" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לרכוש</td>
+		<td align="center">147</td>
+		<td><input value="147" type="checkbox" id="counter101" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>צריכה</td>
+		<td align="center">144</td>
+		<td><input value="144" type="checkbox" id="counter102" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הולך</td>
+		<td align="center">144</td>
+		<td><input value="144" type="checkbox" id="counter103" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הסכם</td>
+		<td align="center">142</td>
+		<td><input value="142" type="checkbox" id="counter104" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>להמשיך</td>
+		<td align="center">142</td>
+		<td><input value="142" type="checkbox" id="counter105" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>אכן</td>
+		<td align="center">141</td>
+		<td><input value="141" type="checkbox" id="counter106" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>אותך</td>
+		<td align="center">140</td>
+		<td><input value="140" type="checkbox" id="counter107" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכך</td>
+		<td align="center">140</td>
+		<td><input value="140" type="checkbox" id="counter108" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ערך</td>
+		<td align="center">139</td>
+		<td><input value="139" type="checkbox" id="counter109" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכו</td>
+		<td align="center">137</td>
+		<td><input value="137" type="checkbox" id="counter110" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כלומר</td>
+		<td align="center">135</td>
+		<td><input value="135" type="checkbox" id="counter111" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>צורך</td>
+		<td align="center">135</td>
+		<td><input value="135" type="checkbox" id="counter112" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לאורך</td>
+		<td align="center">134</td>
+		<td><input value="134" type="checkbox" id="counter113" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>התוכנית</td>
+		<td align="center">133</td>
+		<td><input value="133" type="checkbox" id="counter114" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>שכן</td>
+		<td align="center">133</td>
+		<td><input value="133" type="checkbox" id="counter115" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מערכות</td>
+		<td align="center">132</td>
+		<td><input value="132" type="checkbox" id="counter116" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כלפי</td>
+		<td align="center">131</td>
+		<td><input value="131" type="checkbox" id="counter117" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כתבה</td>
+		<td align="center">129</td>
+		<td><input value="129" type="checkbox" id="counter118" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>להיכנס</td>
+		<td align="center">126</td>
+		<td><input value="126" type="checkbox" id="counter119" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מסך</td>
+		<td align="center">125</td>
+		<td><input value="125" type="checkbox" id="counter120" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הרכב</td>
+		<td align="center">124</td>
+		<td><input value="124" type="checkbox" id="counter121" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תוכנות</td>
+		<td align="center">124</td>
+		<td><input value="124" type="checkbox" id="counter122" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כגון</td>
+		<td align="center">124</td>
+		<td><input value="124" type="checkbox" id="counter123" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מכיוון</td>
+		<td align="center">122</td>
+		<td><input value="122" type="checkbox" id="counter124" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בסך</td>
+		<td align="center">122</td>
+		<td><input value="122" type="checkbox" id="counter125" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שלכם</td>
+		<td align="center">122</td>
+		<td><input value="122" type="checkbox" id="counter126" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>שכבר</td>
+		<td align="center">121</td>
+		<td><input value="121" type="checkbox" id="counter127" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הליכוד</td>
+		<td align="center">120</td>
+		<td><input value="120" type="checkbox" id="counter128" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מסמכים</td>
+		<td align="center">119</td>
+		<td><input value="119" type="checkbox" id="counter129" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תוכנה</td>
+		<td align="center">119</td>
+		<td><input value="119" type="checkbox" id="counter130" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>זכויות</td>
+		<td align="center">116</td>
+		<td><input value="116" type="checkbox" id="counter131" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>התיכון</td>
+		<td align="center">116</td>
+		<td><input value="116" type="checkbox" id="counter132" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>שצריך</td>
+		<td align="center">114</td>
+		<td><input value="114" type="checkbox" id="counter133" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מוכן</td>
+		<td align="center">114</td>
+		<td><input value="114" type="checkbox" id="counter134" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>וכי</td>
+		<td align="center">114</td>
+		<td><input value="114" type="checkbox" id="counter135" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ייתכן</td>
+		<td align="center">113</td>
+		<td><input value="113" type="checkbox" id="counter136" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכן</td>
+		<td align="center">111</td>
+		<td><input value="111" type="checkbox" id="counter137" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כשהוא</td>
+		<td align="center">111</td>
+		<td><input value="111" type="checkbox" id="counter138" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>התוכנה</td>
+		<td align="center">110</td>
+		<td><input value="110" type="checkbox" id="counter139" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>איכות</td>
+		<td align="center">110</td>
+		<td><input value="110" type="checkbox" id="counter140" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בזכות</td>
+		<td align="center">109</td>
+		<td><input value="109" type="checkbox" id="counter141" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>במערכת</td>
+		<td align="center">108</td>
+		<td><input value="108" type="checkbox" id="counter142" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כדור</td>
+		<td align="center">108</td>
+		<td><input value="108" type="checkbox" id="counter143" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כולו</td>
+		<td align="center">104</td>
+		<td><input value="104" type="checkbox" id="counter144" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>חינוך</td>
+		<td align="center">104</td>
+		<td><input value="104" type="checkbox" id="counter145" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לצורך</td>
+		<td align="center">103</td>
+		<td><input value="103" type="checkbox" id="counter146" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכדורגל</td>
+		<td align="center">102</td>
+		<td><input value="102" type="checkbox" id="counter147" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>יכולת</td>
+		<td align="center">102</td>
+		<td><input value="102" type="checkbox" id="counter148" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>יוכל</td>
+		<td align="center">102</td>
+		<td><input value="102" type="checkbox" id="counter149" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כוחות</td>
+		<td align="center">101</td>
+		<td><input value="101" type="checkbox" id="counter150" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בכיר</td>
+		<td align="center">101</td>
+		<td><input value="101" type="checkbox" id="counter151" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מכך</td>
+		<td align="center">101</td>
+		<td><input value="101" type="checkbox" id="counter152" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המערכת</td>
+		<td align="center">101</td>
+		<td><input value="101" type="checkbox" id="counter153" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הפך</td>
+		<td align="center">99</td>
+		<td><input value="99" type="checkbox" id="counter154" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכוניות</td>
+		<td align="center">99</td>
+		<td><input value="99" type="checkbox" id="counter155" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכתוב</td>
+		<td align="center">99</td>
+		<td><input value="99" type="checkbox" id="counter156" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כיוון</td>
+		<td align="center">98</td>
+		<td><input value="98" type="checkbox" id="counter157" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כלום</td>
+		<td align="center">97</td>
+		<td><input value="97" type="checkbox" id="counter158" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ובכל</td>
+		<td align="center">96</td>
+		<td><input value="96" type="checkbox" id="counter159" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>זכה</td>
+		<td align="center">94</td>
+		<td><input value="94" type="checkbox" id="counter160" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לארכיון</td>
+		<td align="center">93</td>
+		<td><input value="93" type="checkbox" id="counter161" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>אתכם</td>
+		<td align="center">93</td>
+		<td><input value="93" type="checkbox" id="counter162" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכסף</td>
+		<td align="center">93</td>
+		<td><input value="93" type="checkbox" id="counter163" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מכיל</td>
+		<td align="center">92</td>
+		<td><input value="92" type="checkbox" id="counter164" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כזו</td>
+		<td align="center">92</td>
+		<td><input value="92" type="checkbox" id="counter165" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>יוכלו</td>
+		<td align="center">92</td>
+		<td><input value="92" type="checkbox" id="counter166" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>להפוך</td>
+		<td align="center">92</td>
+		<td><input value="92" type="checkbox" id="counter167" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כרטיס</td>
+		<td align="center">91</td>
+		<td><input value="91" type="checkbox" id="counter168" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>דרכים</td>
+		<td align="center">91</td>
+		<td><input value="91" type="checkbox" id="counter169" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>סיכוי</td>
+		<td align="center">91</td>
+		<td><input value="91" type="checkbox" id="counter170" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הנוכחי</td>
+		<td align="center">90</td>
+		<td><input value="90" type="checkbox" id="counter171" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>נכנס</td>
+		<td align="center">89</td>
+		<td><input value="89" type="checkbox" id="counter172" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ארוך</td>
+		<td align="center">89</td>
+		<td><input value="89" type="checkbox" id="counter173" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כתוצאה</td>
+		<td align="center">89</td>
+		<td><input value="89" type="checkbox" id="counter174" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>נמוך</td>
+		<td align="center">88</td>
+		<td><input value="88" type="checkbox" id="counter175" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>סיכון</td>
+		<td align="center">87</td>
+		<td><input value="87" type="checkbox" id="counter176" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכון</td>
+		<td align="center">87</td>
+		<td><input value="87" type="checkbox" id="counter177" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כותב</td>
+		<td align="center">87</td>
+		<td><input value="87" type="checkbox" id="counter178" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>וכמה</td>
+		<td align="center">86</td>
+		<td><input value="86" type="checkbox" id="counter179" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכ</td>
+		<td align="center">86</td>
+		<td><input value="86" type="checkbox" id="counter180" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לאכול</td>
+		<td align="center">85</td>
+		<td><input value="85" type="checkbox" id="counter181" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכירים</td>
+		<td align="center">85</td>
+		<td><input value="85" type="checkbox" id="counter182" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>למכור</td>
+		<td align="center">85</td>
+		<td><input value="85" type="checkbox" id="counter183" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>סמוך</td>
+		<td align="center">85</td>
+		<td><input value="85" type="checkbox" id="counter184" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ארוכה</td>
+		<td align="center">84</td>
+		<td><input value="84" type="checkbox" id="counter185" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כבד</td>
+		<td align="center">83</td>
+		<td><input value="83" type="checkbox" id="counter186" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לתוך</td>
+		<td align="center">82</td>
+		<td><input value="82" type="checkbox" id="counter187" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>עורך</td>
+		<td align="center">82</td>
+		<td><input value="82" type="checkbox" id="counter188" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכיר</td>
+		<td align="center">81</td>
+		<td><input value="81" type="checkbox" id="counter189" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>זכות</td>
+		<td align="center">81</td>
+		<td><input value="81" type="checkbox" id="counter190" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כוס</td>
+		<td align="center">80</td>
+		<td><input value="80" type="checkbox" id="counter191" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שכר</td>
+		<td align="center">80</td>
+		<td><input value="80" type="checkbox" id="counter192" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מיכל</td>
+		<td align="center">80</td>
+		<td><input value="80" type="checkbox" id="counter193" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכמובן</td>
+		<td align="center">79</td>
+		<td><input value="79" type="checkbox" id="counter194" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כזאת</td>
+		<td align="center">79</td>
+		<td><input value="79" type="checkbox" id="counter195" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכפר</td>
+		<td align="center">78</td>
+		<td><input value="78" type="checkbox" id="counter196" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כוללת</td>
+		<td align="center">78</td>
+		<td><input value="78" type="checkbox" id="counter197" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כבוד</td>
+		<td align="center">78</td>
+		<td><input value="78" type="checkbox" id="counter198" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>למכירה</td>
+		<td align="center">77</td>
+		<td><input value="77" type="checkbox" id="counter199" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בהמשך</td>
+		<td align="center">77</td>
+		<td><input value="77" type="checkbox" id="counter200" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כתובות</td>
+		<td align="center">76</td>
+		<td><input value="76" type="checkbox" id="counter201" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מתכוון</td>
+		<td align="center">76</td>
+		<td><input value="76" type="checkbox" id="counter202" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>טכנולוגיה</td>
+		<td align="center">76</td>
+		<td><input value="76" type="checkbox" id="counter203" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כלים</td>
+		<td align="center">76</td>
+		<td><input value="76" type="checkbox" id="counter204" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כפר</td>
+		<td align="center">75</td>
+		<td><input value="75" type="checkbox" id="counter205" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המכון</td>
+		<td align="center">75</td>
+		<td><input value="75" type="checkbox" id="counter206" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הצורך</td>
+		<td align="center">74</td>
+		<td><input value="74" type="checkbox" id="counter207" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כרגע</td>
+		<td align="center">74</td>
+		<td><input value="74" type="checkbox" id="counter208" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בתוכנית</td>
+		<td align="center">74</td>
+		<td><input value="74" type="checkbox" id="counter209" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המרכזי</td>
+		<td align="center">73</td>
+		<td><input value="73" type="checkbox" id="counter210" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כוכב</td>
+		<td align="center">73</td>
+		<td><input value="73" type="checkbox" id="counter211" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כתובת</td>
+		<td align="center">73</td>
+		<td><input value="73" type="checkbox" id="counter212" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בכמה</td>
+		<td align="center">72</td>
+		<td><input value="72" type="checkbox" id="counter213" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>זוכה</td>
+		<td align="center">72</td>
+		<td><input value="72" type="checkbox" id="counter214" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המרכזית</td>
+		<td align="center">72</td>
+		<td><input value="72" type="checkbox" id="counter215" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המשך</td>
+		<td align="center">72</td>
+		<td><input value="72" type="checkbox" id="counter216" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כמות</td>
+		<td align="center">71</td>
+		<td><input value="71" type="checkbox" id="counter217" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כשאני</td>
+		<td align="center">70</td>
+		<td><input value="70" type="checkbox" id="counter218" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הטכנולוגיה</td>
+		<td align="center">70</td>
+		<td><input value="70" type="checkbox" id="counter219" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>זכתה</td>
+		<td align="center">70</td>
+		<td><input value="70" type="checkbox" id="counter220" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכתב</td>
+		<td align="center">69</td>
+		<td><input value="69" type="checkbox" id="counter221" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ממשיך</td>
+		<td align="center">69</td>
+		<td><input value="69" type="checkbox" id="counter222" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכירות</td>
+		<td align="center">69</td>
+		<td><input value="69" type="checkbox" id="counter223" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מכונית</td>
+		<td align="center">69</td>
+		<td><input value="69" type="checkbox" id="counter224" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לכאורה</td>
+		<td align="center">68</td>
+		<td><input value="68" type="checkbox" id="counter225" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכלכלי</td>
+		<td align="center">68</td>
+		<td><input value="68" type="checkbox" id="counter226" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ההסכם</td>
+		<td align="center">68</td>
+		<td><input value="68" type="checkbox" id="counter227" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מיכאל</td>
+		<td align="center">67</td>
+		<td><input value="67" type="checkbox" id="counter228" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המלך</td>
+		<td align="center">66</td>
+		<td><input value="66" type="checkbox" id="counter229" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכוח</td>
+		<td align="center">66</td>
+		<td><input value="66" type="checkbox" id="counter230" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>היכולת</td>
+		<td align="center">65</td>
+		<td><input value="65" type="checkbox" id="counter231" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הלך</td>
+		<td align="center">65</td>
+		<td><input value="65" type="checkbox" id="counter232" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>זוכר</td>
+		<td align="center">65</td>
+		<td><input value="65" type="checkbox" id="counter233" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מרכזי</td>
+		<td align="center">65</td>
+		<td><input value="65" type="checkbox" id="counter234" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>נמוכה</td>
+		<td align="center">64</td>
+		<td><input value="64" type="checkbox" id="counter235" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מוכנים</td>
+		<td align="center">64</td>
+		<td><input value="64" type="checkbox" id="counter236" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תוכל</td>
+		<td align="center">64</td>
+		<td><input value="64" type="checkbox" id="counter237" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>יכולות</td>
+		<td align="center">64</td>
+		<td><input value="64" type="checkbox" id="counter238" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המכיל</td>
+		<td align="center">64</td>
+		<td><input value="64" type="checkbox" id="counter239" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המסך</td>
+		<td align="center">63</td>
+		<td><input value="63" type="checkbox" id="counter240" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כאמור</td>
+		<td align="center">63</td>
+		<td><input value="63" type="checkbox" id="counter241" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תערוכות</td>
+		<td align="center">63</td>
+		<td><input value="63" type="checkbox" id="counter242" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>עורכי</td>
+		<td align="center">63</td>
+		<td><input value="63" type="checkbox" id="counter243" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>סוכנויות</td>
+		<td align="center">63</td>
+		<td><input value="63" type="checkbox" id="counter244" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כוכבים</td>
+		<td align="center">62</td>
+		<td><input value="62" type="checkbox" id="counter245" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>להכיר</td>
+		<td align="center">62</td>
+		<td><input value="62" type="checkbox" id="counter246" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>דרכו</td>
+		<td align="center">62</td>
+		<td><input value="62" type="checkbox" id="counter247" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לזכות</td>
+		<td align="center">62</td>
+		<td><input value="62" type="checkbox" id="counter248" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בהכרח</td>
+		<td align="center">62</td>
+		<td><input value="62" type="checkbox" id="counter249" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כפות</td>
+		<td align="center">62</td>
+		<td><input value="62" type="checkbox" id="counter250" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הנכון</td>
+		<td align="center">61</td>
+		<td><input value="61" type="checkbox" id="counter251" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ועכשיו</td>
+		<td align="center">61</td>
+		<td><input value="61" type="checkbox" id="counter252" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כף</td>
+		<td align="center">61</td>
+		<td><input value="61" type="checkbox" id="counter253" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הדרכה</td>
+		<td align="center">61</td>
+		<td><input value="61" type="checkbox" id="counter254" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הופך</td>
+		<td align="center">60</td>
+		<td><input value="60" type="checkbox" id="counter255" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכבלים</td>
+		<td align="center">60</td>
+		<td><input value="60" type="checkbox" id="counter256" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המכירות</td>
+		<td align="center">60</td>
+		<td><input value="60" type="checkbox" id="counter257" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כספים</td>
+		<td align="center">60</td>
+		<td><input value="60" type="checkbox" id="counter258" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כולנו</td>
+		<td align="center">60</td>
+		<td><input value="60" type="checkbox" id="counter259" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>נכתב</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter260" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ברוך</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter261" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכיוון</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter262" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הולכת</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter263" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכספים</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter264" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לכתבה</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter265" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הולכים</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter266" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הסיכון</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter267" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>סוכנות</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter268" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הנוכחית</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter269" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כתוב</td>
+		<td align="center">59</td>
+		<td><input value="59" type="checkbox" id="counter270" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכירה</td>
+		<td align="center">58</td>
+		<td><input value="58" type="checkbox" id="counter271" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ואיך</td>
+		<td align="center">58</td>
+		<td><input value="58" type="checkbox" id="counter272" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כניסה</td>
+		<td align="center">58</td>
+		<td><input value="58" type="checkbox" id="counter273" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ממשיכים</td>
+		<td align="center">58</td>
+		<td><input value="58" type="checkbox" id="counter274" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכניסה</td>
+		<td align="center">58</td>
+		<td><input value="58" type="checkbox" id="counter275" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לשכנע</td>
+		<td align="center">57</td>
+		<td><input value="57" type="checkbox" id="counter276" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כעבור</td>
+		<td align="center">57</td>
+		<td><input value="57" type="checkbox" id="counter277" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כספי</td>
+		<td align="center">57</td>
+		<td><input value="57" type="checkbox" id="counter278" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>נכונה</td>
+		<td align="center">57</td>
+		<td><input value="57" type="checkbox" id="counter279" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכביש</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter280" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כלכלי</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter281" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכסלו</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter282" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הפכה</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter283" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>עודכן</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter284" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כלכלית</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter285" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כמי</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter286" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המכונית</td>
+		<td align="center">56</td>
+		<td><input value="56" type="checkbox" id="counter287" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכוכבים</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter288" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>רכישת</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter289" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מוכר</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter290" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>זיכרון</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter291" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כשהיא</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter292" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>צרכנות</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter293" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>סכום</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter294" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכוללת</td>
+		<td align="center">55</td>
+		<td><input value="55" type="checkbox" id="counter295" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מכירים</td>
+		<td align="center">54</td>
+		<td><input value="54" type="checkbox" id="counter296" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כושר</td>
+		<td align="center">54</td>
+		<td><input value="54" type="checkbox" id="counter297" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ניכר</td>
+		<td align="center">54</td>
+		<td><input value="54" type="checkbox" id="counter298" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מזכיר</td>
+		<td align="center">54</td>
+		<td><input value="54" type="checkbox" id="counter299" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>סוכר</td>
+		<td align="center">54</td>
+		<td><input value="54" type="checkbox" id="counter300" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כוכבי</td>
+		<td align="center">54</td>
+		<td><input value="54" type="checkbox" id="counter301" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מתכונים</td>
+		<td align="center">53</td>
+		<td><input value="53" type="checkbox" id="counter302" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תאריך</td>
+		<td align="center">53</td>
+		<td><input value="53" type="checkbox" id="counter303" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>אלכס</td>
+		<td align="center">53</td>
+		<td><input value="53" type="checkbox" id="counter304" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כולה</td>
+		<td align="center">53</td>
+		<td><input value="53" type="checkbox" id="counter305" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שכתב</td>
+		<td align="center">53</td>
+		<td><input value="53" type="checkbox" id="counter306" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כללית</td>
+		<td align="center">53</td>
+		<td><input value="53" type="checkbox" id="counter307" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מרדכי</td>
+		<td align="center">52</td>
+		<td><input value="52" type="checkbox" id="counter308" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מוכרים</td>
+		<td align="center">52</td>
+		<td><input value="52" type="checkbox" id="counter309" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בערך</td>
+		<td align="center">51</td>
+		<td><input value="51" type="checkbox" id="counter310" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בתהליך</td>
+		<td align="center">51</td>
+		<td><input value="51" type="checkbox" id="counter311" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכאן</td>
+		<td align="center">51</td>
+		<td><input value="51" type="checkbox" id="counter312" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כנגד</td>
+		<td align="center">51</td>
+		<td><input value="51" type="checkbox" id="counter313" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כביש</td>
+		<td align="center">51</td>
+		<td><input value="51" type="checkbox" id="counter314" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכפר</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter315" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכבוד</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter316" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לרכישת</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter317" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לזכור</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter318" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כלשהו</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter319" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכולם</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter320" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כשר</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter321" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>נכסים</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter322" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכדורסל</td>
+		<td align="center">50</td>
+		<td><input value="50" type="checkbox" id="counter323" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כץ</td>
+		<td align="center">49</td>
+		<td><input value="49" type="checkbox" id="counter324" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בכוח</td>
+		<td align="center">49</td>
+		<td><input value="49" type="checkbox" id="counter325" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכנסת</td>
+		<td align="center">49</td>
+		<td><input value="49" type="checkbox" id="counter326" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כאב</td>
+		<td align="center">49</td>
+		<td><input value="49" type="checkbox" id="counter327" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכמה</td>
+		<td align="center">49</td>
+		<td><input value="49" type="checkbox" id="counter328" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>עדכון</td>
+		<td align="center">49</td>
+		<td><input value="49" type="checkbox" id="counter329" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לערוך</td>
+		<td align="center">49</td>
+		<td><input value="49" type="checkbox" id="counter330" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכלכלה</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter331" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כשהם</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter332" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכאן</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter333" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הערכה</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter334" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>האוכל</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter335" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מעריכים</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter336" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכנסה</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter337" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכנסות</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter338" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ארוכות</td>
+		<td align="center">48</td>
+		<td><input value="48" type="checkbox" id="counter339" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שיכול</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter340" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכלכלית</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter341" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מהלך</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter342" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תוכנת</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter343" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>במכבי</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter344" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הפכו</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter345" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ממשיכה</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter346" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כנסת</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter347" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>טכנולוגיות</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter348" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכללי</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter349" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>התערוכה</td>
+		<td align="center">47</td>
+		<td><input value="47" type="checkbox" id="counter350" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לנוכח</td>
+		<td align="center">46</td>
+		<td><input value="46" type="checkbox" id="counter351" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מכירת</td>
+		<td align="center">46</td>
+		<td><input value="46" type="checkbox" id="counter352" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>להכין</td>
+		<td align="center">46</td>
+		<td><input value="46" type="checkbox" id="counter353" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ובכך</td>
+		<td align="center">46</td>
+		<td><input value="46" type="checkbox" id="counter354" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>היכן</td>
+		<td align="center">46</td>
+		<td><input value="46" type="checkbox" id="counter355" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכדור</td>
+		<td align="center">45</td>
+		<td><input value="45" type="checkbox" id="counter356" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>יכולתי</td>
+		<td align="center">45</td>
+		<td><input value="45" type="checkbox" id="counter357" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>התהליך</td>
+		<td align="center">45</td>
+		<td><input value="45" type="checkbox" id="counter358" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תוכן</td>
+		<td align="center">45</td>
+		<td><input value="45" type="checkbox" id="counter359" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שנערך</td>
+		<td align="center">44</td>
+		<td><input value="44" type="checkbox" id="counter360" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בכתב</td>
+		<td align="center">44</td>
+		<td><input value="44" type="checkbox" id="counter361" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לכתובות</td>
+		<td align="center">44</td>
+		<td><input value="44" type="checkbox" id="counter362" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כיף</td>
+		<td align="center">44</td>
+		<td><input value="44" type="checkbox" id="counter363" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכדומה</td>
+		<td align="center">44</td>
+		<td><input value="44" type="checkbox" id="counter364" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>למשך</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter365" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>להוכיח</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter366" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>עידכונים</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter367" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>למכבי</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter368" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>עליך</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter369" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>השכר</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter370" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כתבי</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter371" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כלכליים</td>
+		<td align="center">43</td>
+		<td><input value="43" type="checkbox" id="counter372" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המשיך</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter373" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>להסכם</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter374" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כחלק</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter375" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכלה</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter376" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כיכר</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter377" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>להכניס</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter378" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מוכנה</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter379" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כבש</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter380" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מחכה</td>
+		<td align="center">42</td>
+		<td><input value="42" type="checkbox" id="counter381" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מלך</td>
+		<td align="center">41</td>
+		<td><input value="41" type="checkbox" id="counter382" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>התוכניות</td>
+		<td align="center">41</td>
+		<td><input value="41" type="checkbox" id="counter383" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>עצמך</td>
+		<td align="center">41</td>
+		<td><input value="41" type="checkbox" id="counter384" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כשנה</td>
+		<td align="center">41</td>
+		<td><input value="41" type="checkbox" id="counter385" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכביש</td>
+		<td align="center">41</td>
+		<td><input value="41" type="checkbox" id="counter386" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תומך</td>
+		<td align="center">41</td>
+		<td><input value="41" type="checkbox" id="counter387" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כרם</td>
+		<td align="center">41</td>
+		<td><input value="41" type="checkbox" id="counter388" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מדריכים</td>
+		<td align="center">40</td>
+		<td><input value="40" type="checkbox" id="counter389" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ההרכב</td>
+		<td align="center">40</td>
+		<td><input value="40" type="checkbox" id="counter390" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>וכולל</td>
+		<td align="center">40</td>
+		<td><input value="40" type="checkbox" id="counter391" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לתכנן</td>
+		<td align="center">40</td>
+		<td><input value="40" type="checkbox" id="counter392" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>תכנון</td>
+		<td align="center">40</td>
+		<td><input value="40" type="checkbox" id="counter393" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בשכונת</td>
+		<td align="center">40</td>
+		<td><input value="40" type="checkbox" id="counter394" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כפית</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter395" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מסוכן</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter396" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכללית</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter397" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כלשהי</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter398" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>והכל</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter399" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שייך</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter400" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכשיר</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter401" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>נמשך</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter402" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מעודכן</td>
+		<td align="center">39</td>
+		<td><input value="39" type="checkbox" id="counter403" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>במכרז</td>
+		<td align="center">38</td>
+		<td><input value="38" type="checkbox" id="counter404" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לכבוד</td>
+		<td align="center">38</td>
+		<td><input value="38" type="checkbox" id="counter405" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המכללה</td>
+		<td align="center">38</td>
+		<td><input value="38" type="checkbox" id="counter406" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>וכבר</td>
+		<td align="center">38</td>
+		<td><input value="38" type="checkbox" id="counter407" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הכוונה</td>
+		<td align="center">37</td>
+		<td><input value="37" type="checkbox" id="counter408" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>רכילות</td>
+		<td align="center">37</td>
+		<td><input value="37" type="checkbox" id="counter409" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לדרך</td>
+		<td align="center">37</td>
+		<td><input value="37" type="checkbox" id="counter410" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כלכליות</td>
+		<td align="center">37</td>
+		<td><input value="37" type="checkbox" id="counter411" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הרכבת</td>
+		<td align="center">37</td>
+		<td><input value="37" type="checkbox" id="counter412" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>למרכז</td>
+		<td align="center">37</td>
+		<td><input value="37" type="checkbox" id="counter413" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תיכון</td>
+		<td align="center">37</td>
+		<td><input value="37" type="checkbox" id="counter414" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>נערך</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter415" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המכוניות</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter416" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>באיכות</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter417" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כוונה</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter418" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>לשכוח</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter419" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>במכירות</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter420" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מעריך</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter421" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הזיכרון</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter422" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כאחד</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter423" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לשכת</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter424" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכבד</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter425" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לתמוך</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter426" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>עליכם</td>
+		<td align="center">36</td>
+		<td><input value="36" type="checkbox" id="counter427" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תערוכת</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter428" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בתוכו</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter429" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בדרכו</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter430" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>ההכנסות</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter431" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>הסיכוי</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter432" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מוכרת</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter433" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>המכונה</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter434" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>בכנס</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter435" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ימשיך</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter436" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הערכות</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter437" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>נוכח</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter438" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>דרכה</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter439" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>משך</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter440" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המדריך</td>
+		<td align="center">35</td>
+		<td><input value="35" type="checkbox" id="counter441" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ריכוז</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter442" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>במכונית</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter443" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ואכן</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter444" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>במכון</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter445" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כתיבה</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter446" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>רכישה</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter447" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>להזכיר</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter448" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הלכה</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter449" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>טכנית</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter450" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>עדכני</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter451" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ניכרת</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter452" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הסיכויים</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter453" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כחול</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter454" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הופכת</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter455" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בכניסה</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter456" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>האוכלוסייה</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter457" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>התמיכה</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter458" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכוחות</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter459" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ובכלל</td>
+		<td align="center">34</td>
+		<td><input value="34" type="checkbox" id="counter460" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מורכב</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter461" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>תערוכה</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter462" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מתכוונת</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter463" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כדורים</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter464" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הסכסוך</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter465" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>אשכנזי</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter466" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>זכו</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter467" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בליכוד</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter468" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כשאתה</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter469" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>נוכל</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter470" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכרה</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter471" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ארוכים</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter472" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>סכנה</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter473" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכתבות</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter474" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מכונות</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter475" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>מערך</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter476" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>אלכסנדר</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter477" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בהרכב</td>
+		<td align="center">33</td>
+		<td><input value="33" type="checkbox" id="counter478" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>נמכרה</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter479" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>דרכי</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter480" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>חכם</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter481" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>בסמוך</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter482" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הכאב</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter483" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לתוכנית</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter484" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כותבים</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter485" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>ההערכה</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter486" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כוסות</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter487" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לפיכך</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter488" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>מסכים</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter489" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>וכד</td>
+		<td align="center">32</td>
+		<td><input value="32" type="checkbox" id="counter490" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>זוכרת</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter491" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>לתכנון</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter492" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>הבכורה</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter493" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שכולם</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter494" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כרגיל</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter495" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>שהכל</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter496" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>כותבת</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter497" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="AliceBlue">
+		
+		<td>כשהיה</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter498" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+		<tr bgcolor="White">
+		
+		<td>המרכזיים</td>
+		<td align="center">31</td>
+		<td><input value="31" type="checkbox" id="counter499" onclick="TotalUpdate(this)">
+		</td></tr>
+		
+	</tbody></table>
+	
+	<br>
+	500 מילים מתאימות נמצאו.
+	<br>
+	74363 מופעים מצטברים של צירוף האותיות המבוקש.
+	<form name="totalresult"><br>
+	סה"כ מופעים מצטברים : <input name="total" type="text" value="0" readonly="" size="6"><br><br>
+	סה"כ מילים מצטברות  : <input name="totalwords" type="text" value="0" readonly="" size="6"><br>
+	</form>
+	<hr width="99%" color="SteelBlue" size="1">
+	
+<hr>עדכון אחרון 7.5.2005<br><a href="http://www.huji.ac.il/unew/copyright.html"><font size="2">כל הזכויות שמורות</font></a>
+
+</body></html>
