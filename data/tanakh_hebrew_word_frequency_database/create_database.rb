@@ -40,7 +40,7 @@ Dir['tanakh_utf8/*.htm'].each do |file|
   nok.xpath("//b").each do |b|
     verse_english = b.previous_element.attr('name')
     verse_hebrew = b.inner_text.strip
-    verse_text = b.next_sibling.inner_text.strip.gsub(/[-.,;:]+|{[^}]+}/, ' ').gsub("\u00A0", "").strip
+    verse_text = b.next_sibling.inner_text.strip.gsub(/[-.,;:()]+|{[^}]+}/, ' ').gsub("\u00A0", "").strip
     words = verse_text.split(/\s+/)
     words.each do |word|
       words_table.insert(:word => word,
