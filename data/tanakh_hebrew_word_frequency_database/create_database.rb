@@ -8,8 +8,8 @@ require 'gematria'
 book_names = JSON.parse(File.read("books_hebrew_to_english.json"))
 
 Gematria::Tables.set_table :hebrew
-#DB = Sequel.sqlite # memory database, requires sqlite3
 DB = Sequel.connect('sqlite://tanakh_word_frequency.db')
+
 unless DB.table_exists? :words
   DB.create_table :words do
     primary_key :id
@@ -53,4 +53,4 @@ Dir['tanakh_utf8/*.htm'].each do |file|
     end
   end
 end
-#items.insert(:name => 'abc', :price => rand * 100)
+puts "SUCCESS! Now create the counts with: create_database_counts.rb see README.md"

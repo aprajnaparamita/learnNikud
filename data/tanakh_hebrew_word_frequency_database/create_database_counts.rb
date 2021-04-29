@@ -16,3 +16,5 @@ DB['select word, count(*) as cnt from words group by word order by cnt desc'].ea
   p row
   words_table.insert(:word => row[:word], :count => row[:cnt])
 end
+
+puts "SUCCESS! Your database is now prepared in: tanakh_word_frequency.db"
