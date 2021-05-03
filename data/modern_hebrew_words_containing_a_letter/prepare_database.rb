@@ -3,6 +3,9 @@
 require 'nokogiri'
 require 'sequel'
 
+#
+# prepare_database.rb: Load words from fequency results.
+#
 DB = Sequel.connect('sqlite://modern_word_frequency.db')
 
 unless DB.table_exists? :words

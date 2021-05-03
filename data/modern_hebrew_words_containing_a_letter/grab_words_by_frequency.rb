@@ -5,6 +5,9 @@ require 'watir-webdriver'
 
 browser = Watir::Browser.new
 
+#
+# grab_words_by_frequency.rb: Grab top 500 results for a letter.
+#
 letters = JSON.parse(File.open("letters.json").read)
 letters.each_key do |letter|
   file = "pages/#{letters[letter]}.html"

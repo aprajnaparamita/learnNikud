@@ -1,0 +1,266 @@
+{
+  "א": {
+    "english_name": "aleph",
+    "hebrew_name": "אָלֶף",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1"
+  },
+  "בּ": {
+    "english_name": "bet",
+    "hebrew_name": "בֵּית",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2"
+  },
+  "ב": {
+    "english_name": "vet",
+    "hebrew_name": "בֵית",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2"
+  },
+  "ג": {
+    "english_name": "gimel",
+    "hebrew_name": "גִּימֵל",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3"
+  },
+  "ד": {
+    "english_name": "dalet",
+    "hebrew_name": "דָּלֶת",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4"
+  },
+  "ה": {
+    "english_name": "he",
+    "hebrew_name": "הֵא",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5"
+  },
+  "ו": {
+    "english_name": "vav",
+    "hebrew_name": "וָו",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6"
+  },
+  "ז": {
+    "english_name": "zayin",
+    "hebrew_name": "זַיִן",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7"
+  },
+  "ח": {
+    "english_name": "het",
+    "hebrew_name": "חֵית",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8"
+  },
+  "ט": {
+    "english_name": "tet",
+    "hebrew_name": "טֵית",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9"
+  },
+  "י": {
+    "english_name": "yod",
+    "hebrew_name": "יוֹד",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10"
+  },
+  "ךּ": {
+    "english_name": "kaf sofit",
+    "hebrew_name": "כַּף סוֹפִית",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf sofit/",
+    "english_letter": "k",
+    "numerical_value": "20"
+  },
+  "ך": {
+    "english_name": "χaf sofit",
+    "hebrew_name": "כַף סוֹפִית",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf sofit/",
+    "english_letter": "ch",
+    "numerical_value": "20"
+  },
+  "כּ": {
+    "english_name": "kaf",
+    "hebrew_name": "כַּף",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20"
+  },
+  "כ": {
+    "english_name": "χaf",
+    "hebrew_name": "כַף",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20"
+  },
+  "ל": {
+    "english_name": "lamed",
+    "hebrew_name": "לָמֶד",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30"
+  },
+  "ם": {
+    "english_name": "mem sofit",
+    "hebrew_name": "מֵם סוֹפִית",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40"
+  },
+  "מ": {
+    "english_name": "mem",
+    "hebrew_name": "מֵם",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40"
+  },
+  "ן": {
+    "english_name": "nun sofit",
+    "hebrew_name": "נוּן סוֹפִית",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun sofit/",
+    "english_letter": "n",
+    "numerical_value": "50"
+  },
+  "נ": {
+    "english_name": "nun",
+    "hebrew_name": "נוּן",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50"
+  },
+  "ס": {
+    "english_name": "samekh",
+    "hebrew_name": "סָמֶך",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60"
+  },
+  "ע": {
+    "english_name": "ayin",
+    "hebrew_name": "עַיִן",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70"
+  },
+  "ף": {
+    "english_name": "pe sofit",
+    "hebrew_name": "פֵא סוֹפִית",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe sofit/",
+    "english_letter": "f",
+    "numerical_value": "80"
+  },
+  "פּ": {
+    "english_name": "pe",
+    "hebrew_name": "פֵּא",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80"
+  },
+  "פ": {
+    "english_name": "fe",
+    "hebrew_name": "פֵא",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80"
+  },
+  "ץ": {
+    "english_name": "tzadi sofit",
+    "hebrew_name": "צַדִי סוֹפִית",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90"
+  },
+  "צ": {
+    "english_name": "tzadi",
+    "hebrew_name": "צַדִי",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90"
+  },
+  "ק": {
+    "english_name": "quof",
+    "hebrew_name": "קוֹף‎",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100"
+  },
+  "ר": {
+    "english_name": "resh",
+    "hebrew_name": "רֵישׁ",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200"
+  },
+  "שׁ": {
+    "english_name": "shin",
+    "hebrew_name": "שִׁין",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300"
+  },
+  "שׂ": {
+    "english_name": "sin",
+    "hebrew_name": "שִׂין",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300"
+  },
+  "תּ": {
+    "english_name": "tav",
+    "hebrew_name": "תּו",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400"
+  },
+  "ת": {
+    "english_name": "sav",
+    "hebrew_name": "תָו",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400"
+  }
+}
