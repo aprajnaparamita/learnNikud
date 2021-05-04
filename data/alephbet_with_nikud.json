@@ -1,0 +1,5262 @@
+[
+  {
+    "english_name": "aleph qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "אָ",
+    "examples": [
+      [
+        "הָאָרֶץ"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "אַ",
+    "examples": [
+      [
+        "אַנְגְּלִית"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "אֵ",
+    "examples": [
+      [
+        "יִשְׂרְאֵלִי",
+        "יִשְׂרָאֵל"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "אֶ",
+    "examples": [
+      [
+        "אֶת"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "אְ",
+    "examples": [
+      [
+        "וַיֶּאְסֹר"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "אֹ",
+    "examples": [
+      [
+        "בְּאֹפֶן",
+        "אֹתוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "אוֹ",
+    "examples": [
+      [
+        "אוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "אוּ",
+    "examples": [
+      [
+        "בְּרִיאוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "אִ",
+    "examples": [
+      [
+        "אִם",
+        "אִישׁ"
+      ]
+    ]
+  },
+  {
+    "english_name": "aleph kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "always spoken at the beginning of words with vocal anlaut",
+    "pronunciation": "/ʔalɛf/",
+    "english_letter": "∅",
+    "numerical_value": "1",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "אֻ",
+    "examples": [
+      [
+        "לְאֻמִּית",
+        "נְאֻם"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "בָּ",
+    "examples": [
+      [
+        "בָּאֲתָר"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "בַּ",
+    "examples": [
+      [
+        "בַּיִת"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "בֵּ",
+    "examples": [
+      [
+        "בֵּין"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "בֶּ",
+    "examples": [
+      [
+        "בֶּאֱמֶת"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "בְּ",
+    "examples": [
+      [
+        "בְּרִיאוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "בֹּ",
+    "examples": [
+      [
+        "בַּבֹּקֶר"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "בּוֹ",
+    "examples": [
+      [
+        "בּוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "בּוּ",
+    "examples": [
+      [
+        "תַּרְבּוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "bet hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "b as in black",
+    "pronunciation": "/bet/",
+    "english_letter": "b",
+    "numerical_value": "2",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "בִּ",
+    "examples": [
+      [
+        "בִּי"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "בָ",
+    "examples": [
+      [
+        "אֲבָל",
+        "צְבָאוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "בַ",
+    "examples": [
+      [
+        "בִּלְבַד",
+        "דְּבַר"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "בֵ",
+    "examples": [
+      [
+        "הַחֲבֵרָה",
+        "לְבֵית"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "בֶ",
+    "examples": [
+      [
+        "מֵעֵבֶר",
+        "בֶן"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "בְ",
+    "examples": [
+      [
+        "עִבְרִית",
+        "בְנֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "בֹ",
+    "examples": [
+      [
+        "לַעֲבֹד",
+        "וַיָּבֹא"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "בוֹ",
+    "examples": [
+      [
+        "כַּתָּבוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "בוּ",
+    "examples": [
+      [
+        "הַשָּׁבוּעַ"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "בִ",
+    "examples": [
+      [
+        "אָבִיב",
+        "סָבִיב"
+      ]
+    ]
+  },
+  {
+    "english_name": "vet kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "v as in vogue",
+    "pronunciation": "/vet/",
+    "english_letter": "v",
+    "numerical_value": "2",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "בֻ",
+    "examples": [
+      [
+        "מְבֻגָּרִים",
+        "זְבֻלוּן"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "גָ",
+    "examples": [
+      [
+        "מָגָזִין",
+        "בְּגָדָיו"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "גַ",
+    "examples": [
+      [
+        "וְגַם"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "גֵ",
+    "examples": [
+      [
+        "סוּגֵי",
+        "מָגֵן"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "גֶ",
+    "examples": [
+      [
+        "כַּדּוּרֶגֶל",
+        "נֶגֶד"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "גְ",
+    "examples": [
+      [
+        "בִּגְלַל",
+        "גְדוֹלָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "גֹ",
+    "examples": [
+      [
+        "בְּגֹרֶן"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "גוֹ",
+    "examples": [
+      [
+        "כְּגוֹן"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "גוּ",
+    "examples": [
+      [
+        "תְּגוּבָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "גִ",
+    "examples": [
+      [
+        "לְהָגִיב",
+        "גִלְעָד"
+      ]
+    ]
+  },
+  {
+    "english_name": "gimel kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "g as in gold",
+    "pronunciation": "/ˈɡimel/",
+    "english_letter": "g",
+    "numerical_value": "3",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "גֻ",
+    "examples": [
+      [
+        "מְגֻוָּן",
+        "לְגֻלְגְּלֹתָם"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "דָ",
+    "examples": [
+      [
+        "חֲדָשׁוֹת",
+        "יְהוּדָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "דַ",
+    "examples": [
+      [
+        "עֲדַיִן",
+        "וַיְדַבֵּר"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "דֵ",
+    "examples": [
+      [
+        "כְּדֵי",
+        "עַבְדֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "דֶ",
+    "examples": [
+      [
+        "חֶדֶר",
+        "קֹדֶשׁ"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "דְ",
+    "examples": [
+      [
+        "אוֹדְיוֹ",
+        "דְבַר"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "דֹ",
+    "examples": [
+      [
+        "אָדֹם",
+        "אֲדֹנָי"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "דוֹ",
+    "examples": [
+      [
+        "גָּדוֹל"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "דוּ",
+    "examples": [
+      [
+        "הַמַּהֲדוּרָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "דִ",
+    "examples": [
+      [
+        "מְדִינִי",
+        "יָדִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "dalet kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "d as in doll",
+    "pronunciation": "/ˈdalɛt/",
+    "english_letter": "d",
+    "numerical_value": "4",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "דֻ",
+    "examples": [
+      [
+        "מְדֻבָּר",
+        "הָעֵדֻת"
+      ]
+    ]
+  },
+  {
+    "english_name": "he qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "הָ",
+    "examples": [
+      [
+        "הָיָה",
+        "הָאָרֶץ"
+      ]
+    ]
+  },
+  {
+    "english_name": "he patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "הַ",
+    "examples": [
+      [
+        "הַיּוֹם",
+        "הַמֶּלֶךְ"
+      ]
+    ]
+  },
+  {
+    "english_name": "he tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "הֵ",
+    "examples": [
+      [
+        "הֵם",
+        "אֱלֹהֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "he segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "הֶ",
+    "examples": [
+      [
+        "לָהֶם"
+      ]
+    ]
+  },
+  {
+    "english_name": "he sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "הְ",
+    "examples": [
+      [
+        "לִהְיוֹת",
+        "יִהְיֶה"
+      ]
+    ]
+  },
+  {
+    "english_name": "he cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "הֹ",
+    "examples": [
+      [
+        "צָהֹב",
+        "הֹלֵךְ"
+      ]
+    ]
+  },
+  {
+    "english_name": "he cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "הוֹ",
+    "examples": [
+      [
+        "הַהוֹן"
+      ]
+    ]
+  },
+  {
+    "english_name": "he shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "הוּ",
+    "examples": [
+      [
+        "הוּא"
+      ]
+    ]
+  },
+  {
+    "english_name": "he hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "הִ",
+    "examples": [
+      [
+        "הִיא",
+        "וַיְהִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "he kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "h as in hold",
+    "pronunciation": "/hej/",
+    "english_letter": "h",
+    "numerical_value": "5",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "הֻ",
+    "examples": [
+      [
+        "הֻחְלַט",
+        "הֻגַּד"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "וָ",
+    "examples": [
+      [
+        "וָחֵצִי",
+        "יְהוָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "וַ",
+    "examples": [
+      [
+        "וַאֲנִי",
+        "וַיֹּאמֶר"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "וֵ",
+    "examples": [
+      [
+        "אֲחַשְׁוֵרוֹשׁ"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "וֶ",
+    "examples": [
+      [
+        "צֶוֶת",
+        "אָוֶן"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "וְ",
+    "examples": [
+      [
+        "וְעוֹד",
+        "וְאֶת"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "וֹ",
+    "examples": [
+      [
+        "חֲדָשׁוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "ווֹ",
+    "examples": [
+      [
+        "בְּווֹשִׁינְגְּטוֹן"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "וִ",
+    "examples": [
+      [
+        "וִידֵאוֹ",
+        "דָּוִד"
+      ]
+    ]
+  },
+  {
+    "english_name": "vav kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "v as in vogue or oo as in soon",
+    "pronunciation": "/vav/",
+    "english_letter": "v",
+    "numerical_value": "6",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "וֻ",
+    "examples": [
+      [
+        "קְוֻצּוֹתָיו"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "זָ",
+    "examples": [
+      [
+        "מִבְזָק",
+        "זָהָב"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "זַ",
+    "examples": [
+      [
+        "מָזַג",
+        "עֲזַרְיָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "זֵ",
+    "examples": [
+      [
+        "מוּזֵאוֹן",
+        "חָזֵה"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "זֶ",
+    "examples": [
+      [
+        "זֶה"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "זְ",
+    "examples": [
+      [
+        "זְמַן",
+        "הַמִּזְבֵּחַ"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "זֹ",
+    "examples": [
+      [
+        "זֹאת"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "זוֹ",
+    "examples": [
+      [
+        "זוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "זוּ",
+    "examples": [
+      [
+        "זוּג"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "זִ",
+    "examples": [
+      [
+        "מָגָזִין",
+        "זִקְנֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "zayin kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "z as in zoo",
+    "pronunciation": "/ˈzajin/",
+    "english_letter": "z",
+    "numerical_value": "7",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "זֻ",
+    "examples": [
+      [
+        "מְזֻמָּן",
+        "עֲזֻבוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "het qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "חָ",
+    "examples": [
+      [
+        "אֶחָד"
+      ]
+    ]
+  },
+  {
+    "english_name": "het patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "חַ",
+    "examples": [
+      [
+        "לְאַחַר",
+        "תַּחַת"
+      ]
+    ]
+  },
+  {
+    "english_name": "het tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "חֵ",
+    "examples": [
+      [
+        "אַחֵר",
+        "חֵן"
+      ]
+    ]
+  },
+  {
+    "english_name": "het segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "חֶ",
+    "examples": [
+      [
+        "חֶדֶר",
+        "לֶחֶם"
+      ]
+    ]
+  },
+  {
+    "english_name": "het sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "חְ",
+    "examples": [
+      [
+        "אֲנַחְנוּ",
+        "יַחְדָּו"
+      ]
+    ]
+  },
+  {
+    "english_name": "het cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "חֹ",
+    "examples": [
+      [
+        "חֹק",
+        "לַחֹדֶשׁ"
+      ]
+    ]
+  },
+  {
+    "english_name": "het cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "חוֹ",
+    "examples": [
+      [
+        "פָּחוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "het shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "חוּ",
+    "examples": [
+      [
+        "חוּץ"
+      ]
+    ]
+  },
+  {
+    "english_name": "het hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "חִ",
+    "examples": [
+      [
+        "חִפֵּשׂ",
+        "אָחִיו"
+      ]
+    ]
+  },
+  {
+    "english_name": "het kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χet/",
+    "english_letter": "kh",
+    "numerical_value": "8",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "חֻ",
+    "examples": [
+      [
+        "חֻקִּי",
+        "חֻקַּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "טָ",
+    "examples": [
+      [
+        "קָטָן",
+        "טָהוֹר"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "טַ",
+    "examples": [
+      [
+        "טַל",
+        "טַבָּחִים"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "טֵ",
+    "examples": [
+      [
+        "הֵיטֵב",
+        "שִׁבְטֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "טֶ",
+    "examples": [
+      [
+        "אִינְטֶרְנֶט",
+        "בְּטֶרֶם"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "טְ",
+    "examples": [
+      [
+        "קִטְעֵי",
+        "יִטְמָא"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "טֹ",
+    "examples": [
+      [
+        "הַקְּטַנְטֹנֶת",
+        "קְטֹרֶת"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "טוֹ",
+    "examples": [
+      [
+        "טוֹב"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "טוּ",
+    "examples": [
+      [
+        "אַקְטוּאַלְיָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "טִ",
+    "examples": [
+      [
+        "פּוֹלִיטִי",
+        "הֶחֱטִיא"
+      ]
+    ]
+  },
+  {
+    "english_name": "tet kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tet/",
+    "english_letter": "t",
+    "numerical_value": "9",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "טֻ",
+    "examples": [
+      [
+        "טֻמְאָתָהּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "יָ",
+    "examples": [
+      [
+        "הָיָה",
+        "וְהָיָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "יַ",
+    "examples": [
+      [
+        "יַחַד",
+        "יַעֲקֹב"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "יֵ",
+    "examples": [
+      [
+        "יֵשׁ",
+        "יֵצֵא"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "יֶ",
+    "examples": [
+      [
+        "יִהְיֶה",
+        "יִהְיֶה"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "יְ",
+    "examples": [
+      [
+        "הָיְתָה",
+        "יְהוָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "יֹ",
+    "examples": [
+      [
+        "יֹפִי",
+        "יֹשְׁבֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "יוֹ",
+    "examples": [
+      [
+        "יוֹתֵר"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "יוּ",
+    "examples": [
+      [
+        "הָיוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "יִ",
+    "examples": [
+      [
+        "יִשְׂרְאֵלִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "yod kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "y as in yolk",
+    "pronunciation": "/jod/",
+    "english_letter": "y",
+    "numerical_value": "10",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "יֻ",
+    "examples": [
+      [
+        "מְיֻחָדִים",
+        "יֻלַּד"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf sofit qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf sofit/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "ךָ",
+    "examples": [
+      [
+        "לְךָ"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf sofit sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf sofit/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "ךְ",
+    "examples": [
+      [
+        "כָּךְ",
+        "הַמֶּלֶךְ"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "כָּ",
+    "examples": [
+      [
+        "כָּל"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "כַּ",
+    "examples": [
+      [
+        "כַּלְכָּלָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "כֵּ",
+    "examples": [
+      [
+        "כֵּן"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "כֶּ",
+    "examples": [
+      [
+        "כֶּסֶף"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "כְּ",
+    "examples": [
+      [
+        "כְּמוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "כֹּ",
+    "examples": [
+      [
+        "הַכֹּל"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "כּוֹ",
+    "examples": [
+      [
+        "כּוֹתָרוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "כּוּ",
+    "examples": [
+      [
+        "הַלִּכּוּד"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "כִּ",
+    "examples": [
+      [
+        "כִּי"
+      ]
+    ]
+  },
+  {
+    "english_name": "kaf kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kaf/",
+    "english_letter": "k",
+    "numerical_value": "20",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "כֻּ",
+    "examples": [
+      [
+        "כֻּלָּם"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "כָ",
+    "examples": [
+      [
+        "בְּכָל",
+        "וְכָל"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "כַ",
+    "examples": [
+      [
+        "רָכַב",
+        "יֹאכַל"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "כֵ",
+    "examples": [
+      [
+        "וְכֵן",
+        "לָכֵן"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "כֶ",
+    "examples": [
+      [
+        "לַמַּעֲרֶכֶת",
+        "לָכֶם"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "כְ",
+    "examples": [
+      [
+        "מִכְתָּבִים",
+        "חָכְמָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "כֹ",
+    "examples": [
+      [
+        "יָכֹל",
+        "וְכֹל"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "כוֹ",
+    "examples": [
+      [
+        "נָכוֹן"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "כוּ",
+    "examples": [
+      [
+        "אֵיכוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "כִ",
+    "examples": [
+      [
+        "אַרְכִיּוֹן",
+        "אָנֹכִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "χaf kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "ch as in challah",
+    "pronunciation": "/χaf/",
+    "english_letter": "ch",
+    "numerical_value": "20",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "כֻ",
+    "examples": [
+      [
+        "זְכֻיּוֹת",
+        "כֻלָּם"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "לָ",
+    "examples": [
+      [
+        "כַּלְכָּלָה",
+        "לָהֶם"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "לַ",
+    "examples": [
+      [
+        "לַעֲשׂוֹת",
+        "לַיהוָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "לֵ",
+    "examples": [
+      [
+        "כּוֹלֵל",
+        "לֵאמֹר"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "לֶ",
+    "examples": [
+      [
+        "גָּלֶרְיָה",
+        "הַמֶּלֶךְ"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "לְ",
+    "examples": [
+      [
+        "כַּלְכָּלָה",
+        "לְךָ"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "לֹ",
+    "examples": [
+      [
+        "לֹא"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "לוֹ",
+    "examples": [
+      [
+        "לוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "לוּ",
+    "examples": [
+      [
+        "לוּחַ"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "לִ",
+    "examples": [
+      [
+        "אַנְגְּלִית",
+        "לִפְנֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "lamed kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "l as in luck",
+    "pronunciation": "/ˈlamɛd/",
+    "english_letter": "l",
+    "numerical_value": "30",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "לֻ",
+    "examples": [
+      [
+        "פְּעִילֻיּוֹת",
+        "זְבוּלֻן"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "מָ",
+    "examples": [
+      [
+        "מָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "מַ",
+    "examples": [
+      [
+        "מַעֲרִיב",
+        "אָמַר"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "מֵ",
+    "examples": [
+      [
+        "מֵאֵת",
+        "מֵאוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "מֶ",
+    "examples": [
+      [
+        "אָמֶרִיקָה",
+        "וַיֹּאמֶר"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "מְ",
+    "examples": [
+      [
+        "מְאוֹד",
+        "וַיֹּאמְרוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "מֹ",
+    "examples": [
+      [
+        "מֹשֶׁה",
+        "לֵאמֹר"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "מוֹ",
+    "examples": [
+      [
+        "כְּמוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "מוּ",
+    "examples": [
+      [
+        "מוּסָף"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "מִ",
+    "examples": [
+      [
+        "תְּמִיכָה",
+        "מִן"
+      ]
+    ]
+  },
+  {
+    "english_name": "mem kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "m as in mother",
+    "pronunciation": "/mem/",
+    "english_letter": "m",
+    "numerical_value": "40",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "מֻ",
+    "examples": [
+      [
+        "מֻמְלָץ",
+        "יָמֻתוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun sofit qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun sofit/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "ןָ",
+    "examples": [
+      [
+        "תִּהְיֶיןָ"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "נָ",
+    "examples": [
+      [
+        "נָשִׁים",
+        "שָׁנָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "נַ",
+    "examples": [
+      [
+        "לְפָנַי",
+        "נַפְשִׁי"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "נֵ",
+    "examples": [
+      [
+        "שְׁנֵי",
+        "בְּנֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "נֶ",
+    "examples": [
+      [
+        "אִינְטֶרְנֶט",
+        "נֶפֶשׁ"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "נְ",
+    "examples": [
+      [
+        "אַנְגְּלִית",
+        "נְאֻם"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "נֹ",
+    "examples": [
+      [
+        "לִמְנֹעַ",
+        "אָנֹכִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "נוֹ",
+    "examples": [
+      [
+        "תְּמוּנוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "נוּ",
+    "examples": [
+      [
+        "אֲנַחְנוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "נִ",
+    "examples": [
+      [
+        "אֲנִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "nun kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "n as in night",
+    "pronunciation": "/nun/",
+    "english_letter": "n",
+    "numerical_value": "50",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "נֻ",
+    "examples": [
+      [
+        "הִזְדַּמְּנֻיּוֹת",
+        "וַיָּנֻסוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "סָ",
+    "examples": [
+      [
+        "מוּסָף",
+        "סָבִיב"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "סַ",
+    "examples": [
+      [
+        "כַּדּוּרְסַל",
+        "וַיָּסַר"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "סֵ",
+    "examples": [
+      [
+        "כַּרְטִיסֵי",
+        "יוֹסֵף"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "סֶ",
+    "examples": [
+      [
+        "הַמֻּדְפֶּסֶת",
+        "כֶּסֶף"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "סְ",
+    "examples": [
+      [
+        "סְפּוֹרְט",
+        "וַיִּסְעוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "סֹ",
+    "examples": [
+      [
+        "לִנְסֹעַ",
+        "סֹלֶת"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "סוֹ",
+    "examples": [
+      [
+        "סוֹפְשָׁבוּעַ"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "סוּ",
+    "examples": [
+      [
+        "פִּרְסוּם"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "סִ",
+    "examples": [
+      [
+        "וְסִפְרוּת",
+        "סוּסִים"
+      ]
+    ]
+  },
+  {
+    "english_name": "samekh kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/ˈsamɛχ/",
+    "english_letter": "s",
+    "numerical_value": "60",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "סֻ",
+    "examples": [
+      [
+        "מְסֻיָּם",
+        "סֻכּוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "עָ",
+    "examples": [
+      [
+        "עָלָיו",
+        "הָעָם"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "עַ",
+    "examples": [
+      [
+        "עַל"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "עֵ",
+    "examples": [
+      [
+        "הַפּוֹעֵל",
+        "מוֹעֵד"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "עֶ",
+    "examples": [
+      [
+        "עֶרֶב",
+        "עֶשְׂרִים"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "עְ",
+    "examples": [
+      [
+        "לְמַעְלָה",
+        "יָדַעְתִּי"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "עֹ",
+    "examples": [
+      [
+        "לִפְעֹל",
+        "פַּרְעֹה"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "עוֹ",
+    "examples": [
+      [
+        "עוֹד"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "עוּ",
+    "examples": [
+      [
+        "בְּאֶמְצָעוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "עִ",
+    "examples": [
+      [
+        "עִם"
+      ]
+    ]
+  },
+  {
+    "english_name": "ayin kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "(silent)",
+    "pronunciation": "/ʕajin/",
+    "english_letter": "∅",
+    "numerical_value": "70",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "עֻ",
+    "examples": [
+      [
+        "לְעֻמַּת",
+        "לְעֻמַּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "פָּ",
+    "examples": [
+      [
+        "מִסְפָּר"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "פַּ",
+    "examples": [
+      [
+        "פַּעַם"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "פֵּ",
+    "examples": [
+      [
+        "חִפֵּשׂ"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "פֶּ",
+    "examples": [
+      [
+        "הַמֻּדְפֶּסֶת"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "פְּ",
+    "examples": [
+      [
+        "פְּנַאי"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "פֹּ",
+    "examples": [
+      [
+        "פֹּה"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "פּוֹ",
+    "examples": [
+      [
+        "סְפּוֹרְט"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "פּוּ",
+    "examples": [
+      [
+        "חִפּוּשׂ"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "פִּ",
+    "examples": [
+      [
+        "פִּי"
+      ]
+    ]
+  },
+  {
+    "english_name": "pe kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "p as in pool",
+    "pronunciation": "/pe/",
+    "english_letter": "p",
+    "numerical_value": "80",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "פֻּ",
+    "examples": [
+      [
+        "פֻּטַּר"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "פָ",
+    "examples": [
+      [
+        "לְפָנַי",
+        "לְפָנָיו"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "פַ",
+    "examples": [
+      [
+        "סָפַר",
+        "פַרְעֹה"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "פֵ",
+    "examples": [
+      [
+        "סָפֵק",
+        "חָפֵץ"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "פֶ",
+    "examples": [
+      [
+        "הַסֵּפֶר",
+        "נֶפֶשׁ"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "פְ",
+    "examples": [
+      [
+        "אֶפְשָׁר",
+        "לִפְנֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "פֹ",
+    "examples": [
+      [
+        "אֵיפֹה",
+        "הָאֵפֹד"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "פוֹ",
+    "examples": [
+      [
+        "לַפוֹרוּם"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "פוּ",
+    "examples": [
+      [
+        "הָפוּךְ"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "פִ",
+    "examples": [
+      [
+        "לְפִי",
+        "אֲלָפִים"
+      ]
+    ]
+  },
+  {
+    "english_name": "fe kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "f as in full",
+    "pronunciation": "/fe/",
+    "english_letter": "f",
+    "numerical_value": "80",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "פֻ",
+    "examples": [
+      [
+        "מְפֻרְסָמִים",
+        "יְפֻנֶּה"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "צָ",
+    "examples": [
+      [
+        "צָרִיךְ",
+        "יָצָא"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "צַ",
+    "examples": [
+      [
+        "לְצַד",
+        "צַדִּיק"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "צֵ",
+    "examples": [
+      [
+        "לָצֵאת",
+        "וַיֵּצֵא"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "צֶ",
+    "examples": [
+      [
+        "רוֹצֶה",
+        "צֶדֶק"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "צְ",
+    "examples": [
+      [
+        "עַצְמוֹ",
+        "מִצְרַיִם"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "צֹ",
+    "examples": [
+      [
+        "לִמְצֹא",
+        "צֹאן"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "צוֹ",
+    "examples": [
+      [
+        "וְהַמְלָצוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "צוּ",
+    "examples": [
+      [
+        "רָצוּי"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "צִ",
+    "examples": [
+      [
+        "צִיּוּן",
+        "צִוָּה"
+      ]
+    ]
+  },
+  {
+    "english_name": "tzadi kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "ts as in cats",
+    "pronunciation": "/ˈtsadi sofit/",
+    "english_letter": "tz",
+    "numerical_value": "90",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "צֻ",
+    "examples": [
+      [
+        "מְצֻיָּן",
+        "וַיָּצֻרוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "קָ",
+    "examples": [
+      [
+        "קָשֶׁה",
+        "וַיָּקָם"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "קַ",
+    "examples": [
+      [
+        "לְקַבֵּל",
+        "קַח"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "קֵ",
+    "examples": [
+      [
+        "מִשְׂחֲקֵי",
+        "זָקֵן"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "קֶ",
+    "examples": [
+      [
+        "שֶׁקֶל",
+        "בַּבֹּקֶר"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "קְ",
+    "examples": [
+      [
+        "אֶקְשְׁן",
+        "וַיִּקְרָא"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "קֹ",
+    "examples": [
+      [
+        "קֹדֶם",
+        "יַעֲקֹב"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "קוֹ",
+    "examples": [
+      [
+        "בַּמָּקוֹם"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "קוּ",
+    "examples": [
+      [
+        "בַּתְּקוּפָה"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "קִ",
+    "examples": [
+      [
+        "עֲסָקִים",
+        "חִזְקִיָּהוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "quof kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "k as in king",
+    "pronunciation": "/kuf/",
+    "english_letter": "k",
+    "numerical_value": "100",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "קֻ",
+    "examples": [
+      [
+        "מְקֻוֶּנֶת",
+        "וַיָּקֻמוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "רָ",
+    "examples": [
+      [
+        "יִשְׂרָאֵל",
+        "יִשְׂרָאֵל"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "רַ",
+    "examples": [
+      [
+        "רַק",
+        "מִצְרַיִם"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "רֵ",
+    "examples": [
+      [
+        "יוֹרֵק",
+        "אַחֲרֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "רֶ",
+    "examples": [
+      [
+        "הָאָרֶץ",
+        "הָאָרֶץ"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "רְ",
+    "examples": [
+      [
+        "יִשְׂרְאֵלִי",
+        "פַּרְעֹה"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "רֹ",
+    "examples": [
+      [
+        "רֹאשׁ",
+        "אַהֲרֹן"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "רוֹ",
+    "examples": [
+      [
+        "שֶׁרוֹן"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "רוּ",
+    "examples": [
+      [
+        "וְשֵׁרוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "רִ",
+    "examples": [
+      [
+        "עִבְרִית",
+        "עֶשְׂרִים"
+      ]
+    ]
+  },
+  {
+    "english_name": "resh kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "r as in ripe",
+    "pronunciation": "/ʁeʃ/",
+    "english_letter": "r",
+    "numerical_value": "200",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "רֻ",
+    "examples": [
+      [
+        "אֲרֻכָּה",
+        "זְרֻבָּבֶל"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "שָׁ",
+    "examples": [
+      [
+        "אֶפְשָׁר"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "שַׁ",
+    "examples": [
+      [
+        "שַׁעַר"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "שֵׁ",
+    "examples": [
+      [
+        "וְשֵׁרוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "שֶׁ",
+    "examples": [
+      [
+        "שֶׁל"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "שְׁ",
+    "examples": [
+      [
+        "שְׁנֵי"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "שֹׁ",
+    "examples": [
+      [
+        "הַתִּקְשֹׁרֶת"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "שׁוֹ",
+    "examples": [
+      [
+        "חֲדָשׁוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "שׁוּ",
+    "examples": [
+      [
+        "שׁוּק"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "שִׁ",
+    "examples": [
+      [
+        "שִׁשִּׁי"
+      ]
+    ]
+  },
+  {
+    "english_name": "shin kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "sh as in shop",
+    "pronunciation": "/ʃin/",
+    "english_letter": "sh",
+    "numerical_value": "300",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "שֻׁ",
+    "examples": [
+      [
+        "מְשֻׁתָּף"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "שָׂ",
+    "examples": [
+      [
+        "עֲשָׂרוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "שַׂ",
+    "examples": [
+      [
+        "שַׂחְקָנִים"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "שֵׂ",
+    "examples": [
+      [
+        "בַּנּוֹשֵׂא"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "שֶׂ",
+    "examples": [
+      [
+        "עוֹשֶׂה"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "שְׂ",
+    "examples": [
+      [
+        "יִשְׂרְאֵלִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "שֹׂ",
+    "examples": [
+      [
+        "לַחְשֹׂף"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "שׂוֹ",
+    "examples": [
+      [
+        "לַעֲשׂוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "שׂוּ",
+    "examples": [
+      [
+        "עָשׂוּי"
+      ]
+    ]
+  },
+  {
+    "english_name": "sin hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "s as in sight",
+    "pronunciation": "/sin/",
+    "english_letter": "s",
+    "numerical_value": "300",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "שִׂ",
+    "examples": [
+      [
+        "מְחַפְּשִׂים"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "תָּ",
+    "examples": [
+      [
+        "כַּתָּבוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "תַּ",
+    "examples": [
+      [
+        "תַּרְבּוּת"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "תֵּ",
+    "examples": [
+      [
+        "תֵּל"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "תֶּ",
+    "examples": [
+      [
+        "אַתֶּם"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "תְּ",
+    "examples": [
+      [
+        "תְּמוּנוֹת"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "תֹּ",
+    "examples": [
+      [
+        "לִכְתֹּב"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "תּוֹ",
+    "examples": [
+      [
+        "בָּעִתּוֹן"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "תּוּ",
+    "examples": [
+      [
+        "תּוּכְלוּ"
+      ]
+    ]
+  },
+  {
+    "english_name": "tav hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "t as in tool",
+    "pronunciation": "/tav/",
+    "english_letter": "t",
+    "numerical_value": "400",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "תִּ",
+    "examples": [
+      [
+        "תִּהְיֶה"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav qamats",
+    "hebrew_name": "קָמֶץ",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Qamats",
+    "code_point": "05B8",
+    "sounds": 1,
+    "vowel_sound": "u",
+    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)",
+    "combined": "תָ",
+    "examples": [
+      [
+        "בָּאֲתָר",
+        "אֹתָם"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav patah",
+    "hebrew_name": "פַּתַח",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Patah",
+    "code_point": "05B7",
+    "sounds": 1,
+    "vowel_sound": "ah",
+    "description": "Looks like a flat horizontal line under the letter and makes an 'ah' sound (as in darn)",
+    "combined": "תַ",
+    "examples": [
+      [
+        "כָּתַב",
+        "נָתַן"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav tsere",
+    "hebrew_name": "צֵירֵי",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Tsere",
+    "code_point": "05B5",
+    "sounds": 1,
+    "vowel_sound": "a",
+    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)",
+    "combined": "תֵ",
+    "examples": [
+      [
+        "יוֹתֵר",
+        "נֹתֵן"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav segol",
+    "hebrew_name": "סְגוֹל",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Segol",
+    "code_point": "05B6",
+    "sounds": 1,
+    "vowel_sound": "e",
+    "description": "Three dots arranged as an inverted pyramid under the letter, makes a short 'e' sound (as in red)",
+    "combined": "תֶ",
+    "examples": [
+      [
+        "הַיֶּתֶר",
+        "וְיֶתֶר"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav sheva",
+    "hebrew_name": "שְׁוָא",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Sheva",
+    "code_point": "05B0",
+    "sounds": 2,
+    "vowel_sound": "silent or ih",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)",
+    "combined": "תְ",
+    "examples": [
+      [
+        "אֶתְמוֹל",
+        "אֶתְכֶם"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav cholam haser",
+    "hebrew_name": "חוֹלָם חָסֵר",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Cholam Haser",
+    "code_point": "05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "תֹ",
+    "examples": [
+      [
+        "כְּתֹבֶת",
+        "תֹאמַר"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav cholam malle",
+    "hebrew_name": "חוֹלָם מָלֵא",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Cholam Malle",
+    "code_point": "05D5 05B9",
+    "sounds": 1,
+    "vowel_sound": "o or oy",
+    "description": "Can either make a long 'o' sound (as in lone), or among some Ashkenazim it makes an 'oy' (as in toy).",
+    "combined": "תוֹ",
+    "examples": [
+      [
+        "אוֹתוֹ"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav shuruk",
+    "hebrew_name": "שׁוּרוּק",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Shuruk",
+    "code_point": "05D5 05BC",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes an 'oo' sound (like boot) and appears like a vav with a dot to its left",
+    "combined": "תוּ",
+    "examples": [
+      [
+        "פָּתוּחַ"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav hiriq",
+    "hebrew_name": "חִירִיק‎",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Hiriq",
+    "code_point": "05B4",
+    "sounds": 2,
+    "vowel_sound": "e or i",
+    "description": "A single dot below the letter, makes a long 'e' sound when followed by a yud. Otherwise it makes a short 'i' sound",
+    "combined": "תִ",
+    "examples": [
+      [
+        "אוֹתִי",
+        "רָאִיתִי"
+      ]
+    ]
+  },
+  {
+    "english_name": "sav kubutz",
+    "hebrew_name": "קֻבּוּץ",
+    "english_equivalent": "th as in thought",
+    "pronunciation": "/sav/",
+    "english_letter": "th",
+    "numerical_value": "400",
+    "nikud": "Kubutz",
+    "code_point": "05BB",
+    "sounds": 1,
+    "vowel_sound": "oo",
+    "description": "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arranged like an ascending staircase below the letter",
+    "combined": "תֻ",
+    "examples": [
+      [
+        "הַחֲתֻנָּה",
+        "כְּתֻבִים"
+      ]
+    ]
+  }
+]

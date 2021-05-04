@@ -10,3 +10,6 @@ From the site: The corpus was assembled throughout the year 2001, and consists o
 
 First run the script grab_words_by_frequency.rb. This will grab the top
 500 results for a letter in the aleph-bet.
+
+Next run prepare_database.rb to load the data from the pages into the
+database.
