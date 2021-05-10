@@ -13,9 +13,9 @@ usage. You can find the guide to collecting these words here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data/modern_hebrew_words_containing_a_letter
 
-The other principal source for reading Hebrew and nikud is the tanakh.
-The processing for Mechon Mamre's Complete Hebrew Bible is simple
-and is here:
+The other principal source for reading Hebrew and nikud is the tanakh
+and Sidur. The processing for Mechon Mamre's Complete Hebrew Bible is
+simple and is here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data/tanakh_hebrew_word_frequency_database
 
