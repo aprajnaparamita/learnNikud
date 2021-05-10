@@ -41,8 +41,10 @@ def get_next(nikud, handle, query)
   used_word = nil
   while found_word == nil
     word = get_next_word(nikud, handle, query, used_word)
+    return nil if word == nil
     puts "get_next(): Word: \"#{word}\": #{used_word}"
     if $used_words.has_key? word
+      puts "Yup has the key: #{word.inspect}"
       used_word = word
       next
     else
@@ -68,8 +70,13 @@ def get_word_examples(nikud)
   # We want more variety so we priorities those chosen with unqieness first
   # Tanakh/Sidur data is added first so words from the Shema can be added here without fear
   # of removing the modern words.
-  examples.push t2word || t1word if t2word || t1word
-  examples.push m2word || m1word if m2word || m1word
+  tword = t2word || t1word
+  tword = tword.strip if tword != nil
+  mword = m2word || m1word
+  mword = mword.strip if mword != nil
+
+  examples.push tword if tword != nil
+  examples.push mword if mword != nil
   return examples
 end
 
@@ -108,5 +115,5 @@ puts "With examples: #{elements.length}"
 #puts missing.to_json
 
 File.open("alephbet_with_nikud.json", "w") do |f|
-  f.write elements.to_json
+  f.write JSON.pretty_generate(elements)
 end
