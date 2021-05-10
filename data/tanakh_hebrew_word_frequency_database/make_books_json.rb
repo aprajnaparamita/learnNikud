@@ -9,7 +9,7 @@ require 'json'
 # is being used to populate the book_english field for the
 # tanakh_word_frequency.db words table.
 
-DB = Sequel.connect('sqlite://tanakh_word_frequency.db')
+DB = Sequel.connect('sqlite://tanakh_and_sidur_word_frequency.db')
 books = {}
 DB['select distinct(book_hebrew) from words order by book_hebrew'].each do |row|
   books[row[:book_hebrew]] = ''

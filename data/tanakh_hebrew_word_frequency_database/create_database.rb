@@ -8,7 +8,7 @@ require 'gematria'
 book_names = JSON.parse(File.read("books_hebrew_to_english.json"))
 
 Gematria::Tables.set_table :hebrew
-DB = Sequel.connect('sqlite://tanakh_word_frequency.db')
+DB = Sequel.connect('sqlite://tanakh_and_sidur_word_frequency.db')
 
 unless DB.table_exists? :words
   DB.create_table :words do
@@ -20,6 +20,7 @@ unless DB.table_exists? :words
     String :book_english
     String :chapter_english
     String :verse_english
+    String :prayer_name
   end
 end
 
@@ -40,7 +41,7 @@ Dir['tanakh_utf8/*.htm'].each do |file|
   nok.xpath("//b").each do |b|
     verse_english = b.previous_element.attr('name')
     verse_hebrew = b.inner_text.strip
-    verse_text = b.next_sibling.inner_text.strip.gsub(/[-.,;:()]+|{[^}]+}/, ' ').gsub("\u00A0", "").strip
+    verse_text = b.next_sibling.inner_text.strip.gsub(/[-.,;:()"'\]\[]+|{[^}]+}/, ' ').gsub("\u00A0", "").strip
     words = verse_text.split(/\s+/)
     words.each do |word|
       words_table.insert(:word => word,
@@ -53,4 +54,4 @@ Dir['tanakh_utf8/*.htm'].each do |file|
     end
   end
 end
-puts "SUCCESS! Now create the counts with: create_database_counts.rb see README.md"
+puts "SUCCESS! Now import the sidur with 'ruby import_sidur.rb' or create the counts for the tanakh alone with: create_database_counts.rb see README.md"

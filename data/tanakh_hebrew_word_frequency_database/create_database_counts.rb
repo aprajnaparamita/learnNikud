@@ -3,7 +3,7 @@
 require 'json'
 require 'sequel'
 
-DB = Sequel.connect('sqlite://tanakh_word_frequency.db')
+DB = Sequel.connect('sqlite://tanakh_and_sidur_word_frequency.db')
 unless DB.table_exists? :word_counts
   DB.create_table :word_counts do
     String :word
@@ -17,4 +17,4 @@ DB['select word, count(*) as cnt from words group by word order by cnt desc'].ea
   words_table.insert(:word => row[:word], :count => row[:cnt])
 end
 
-puts "SUCCESS! Your database is now prepared in: tanakh_word_frequency.db"
+puts "SUCCESS! Your database is now prepared in: tanakh_and_sidur_word_frequency.db"
