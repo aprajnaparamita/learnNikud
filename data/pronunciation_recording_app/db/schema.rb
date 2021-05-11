@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 2021_05_11_041904) do
     t.string "nikud_description"
     t.string "nikud_english_name"
     t.string "examples"
+    t.text "notes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["completed"], name: "index_sounds_on_completed"

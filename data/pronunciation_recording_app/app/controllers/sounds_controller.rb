@@ -1,3 +1,5 @@
+require 'fileutils'
+
 class SoundsController < ApplicationController
   before_action :set_sound, only: [:show, :update, :destroy]
 
@@ -25,10 +27,13 @@ class SoundsController < ApplicationController
   def update
    upload = params['sound']['blob']
    name   = params['sound']['filename']
-   File.open(Rails.root.join("db", "sounds", name), "wb") do |f|
+   sounds_dir = Rails.root.join("db", "sounds", @sound.speaker_id.to_s)
+   FileUtils.mkdir_p sounds_dir
+   sounds_dir = sounds_dir.join(name)
+   File.open(sounds_dir, "wb") do |f|
      f.write(upload.read)
    end
-   @sound.example = params['sound']['example']
+   @sound.examples = params['sound']['examples']
    @sound.filename = name
    @sound.completed = true
    @sound.save

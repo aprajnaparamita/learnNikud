@@ -41,7 +41,7 @@ namespace :letters do
       end
       s.character = nikud['combined']
       s.examples  = nikud['examples'].join(" ")
-      s.filename  = "sounds/#{nikud['english_name'].gsub(/\s+/, '_')}.mp3"
+      s.filename  = "#{nikud['english_name'].gsub(/\s+/, '_')}.mp3"
       s.save
       p s
     end

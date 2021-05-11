@@ -12,10 +12,12 @@
     <script src="systemjs.config.js"></script>
   </head>
 
-  <body>
+  <body style="text-align: center">
     <div id="root"></div>
-    <div>Edit Example: 
-      <input type="text" id="edit_example" value="" />
+    <div id="edit" class="hidden">
+      <input type="button" value="x" id="close" onclick="document.getElementById('edit').setAttribute('class', 'hidden'); document.getElementById('editButton').setAttribute('class', 'shown');" />
+      <label for="edit_example" id="examples_label">Examples:</label><br /><input type="text" name="edit_example" id="edit_example" value="" /><br />
+      <label for="notes">Notes:</label><br /><textarea rows="5" cols="30" name="notes" id="notes"></textarea>
     </div>
   </body>
 

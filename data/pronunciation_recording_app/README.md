@@ -2,9 +2,14 @@
 
 This is a simple React app that allows multiple speakers to record all
 the sounds for each nikud. A speaker has an ID and we add all
-aleph-bet letters with each possible nikud combination from the
-alephbet_with_nikud.json created by the data import process described
-here:
+aleph-bet letters with each possible nikud combination.
+
+[![Nikud Pronunciation Sound Collection App](http://img.youtube.com/vi/z1mszMaORAI/0.jpg)](http://www.youtube.com/watch?v=z1mszMaORAI "Nikud Pronunciation Sound Collection App")
+
+## Data and Origin
+
+We generated this data from the alephbet_with_nikud.json created by the
+data import process described here:
 https://github.com/hexatridecimal/learnNikud/tree/main/data
 
 ## Setup and Installation

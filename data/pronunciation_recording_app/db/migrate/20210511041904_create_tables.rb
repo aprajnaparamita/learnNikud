@@ -20,6 +20,7 @@ class CreateTables < ActiveRecord::Migration[6.1]
       t.string :nikud_description #  "Makes a shorter 'oo' sound like in 'book' and appears like three dots, arrange>
       t.string :nikud_english_name #  "kubutz",
       t.string :examples
+      t.text :notes
       t.timestamps
     end
     add_index :sounds, :completed

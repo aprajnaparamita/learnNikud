@@ -2,7 +2,10 @@
 
 table {
   margin: 0px auto;
-  width: 600px;
+  width: 375px;
+}
+label {
+  text-align: left;
 }
 thead {color:green;}
 tbody {
@@ -44,4 +47,49 @@ table, th, td {
 td, th{
   padding: 5px;
   font-size: 20pt;
+}
+
+#edit {
+  width: 250px;
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #eee;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+}
+#close {
+  position: relative;
+  left: 230px;
+  top: -20px;
+}
+#examples_label {
+  position: relative;
+  left: -40px;
+}
+#controls {
+  text-align: center;
+}
+#deleteButton {
+  margin: 0px auto;
+  margin-top: 20px;
+}
+#recordButton {
+  margin: 0px auto;
+  margin-top: 20px;
+}
+#editButton {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.smaller {
+  font-size: 12pt;
+}
+.main {
+  color: black;
 }

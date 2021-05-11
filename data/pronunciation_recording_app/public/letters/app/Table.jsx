@@ -8,6 +8,10 @@ export default class Table extends React.Component {
       super(props);
       this.getRowsData = this.getRowsData.bind(this);
     }
+  showControls = function() {
+    document.getElementById('edit').setAttribute('class', 'shown');
+    document.getElementById('editButton').setAttribute('class', 'hidden');
+  };
   deleteRecord = function() {
         fetch("/sounds/"+ document.getElementById('id').value, {
           method: "DELETE",
@@ -33,7 +37,7 @@ export default class Table extends React.Component {
         const form = new FormData();
         form.append("sound[id]", document.getElementById('id').value);
         form.append("sound[filename]", document.getElementById('filename').value);
-        form.append("sound[example]", document.getElementById('edit_example').value);
+        form.append("sound[examples]", document.getElementById('edit_example').value);
         form.append("sound[blob]", blob, "record.mp3");
         fetch("/sounds/"+ document.getElementById('id').value, {
           method: "PUT",
@@ -52,16 +56,16 @@ export default class Table extends React.Component {
         <input type="hidden" id="id" value={items['id']} />
         <input type="hidden" id="filename" value={items['filename']} />
         <tr>
-          <th colspan="2">{items['speaker_name']} you are on {items['current']} of {items['total']}.</th>
+          <th colSpan="2">{items['speaker_name']} you are on {items['current']} of {items['total']}.</th>
         </tr>
         <tr>
-          <th colspan="2"><h1>{items['character']}</h1><p>{items['hebrew_name']}</p></th>
+          <th colSpan="2" class="main"><h1>{items['character']}</h1><p>{items['hebrew_name']}</p></th>
         </tr>
         <tr>
-          <td colspan="2">{items['nikud_description']}</td>
+          <td colSpan="2" class="main">{items['hebrew_name']} is prounounced {items['character']} for example {items['examples'].replace(' ', ' or ')}.</td>
         </tr>
         <tr>
-          <td>Examples</td><td>{items['examples'].replace(' ', ' or ')}</td>
+          <td colSpan="2" class="smaller">{items['nikud_hebrew_name']}: {items['nikud_description']}</td>
         </tr>
         </tbody>
       } else {
@@ -70,13 +74,14 @@ export default class Table extends React.Component {
     }
     render() {
         return (
-          <div>
+          <div id="controls">
             <table>
               {this.getRowsData()}
             </table>
             <div id="audio"></div>
             <button id="deleteButton" onClick={this.deleteRecord} class="hidden">Reset</button>
             <button id="recordButton" onClick={this.startRecord} class="shown">Record</button>
+            <button id="editButton" onClick={this.showControls} class="shown">Edit</button>
           </div>
         );
     }
