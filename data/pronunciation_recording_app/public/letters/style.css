@@ -1,0 +1,47 @@
+/* Styles go here */
+
+table {
+  margin: 0px auto;
+  width: 600px;
+}
+thead {color:green;}
+tbody {
+  font-size: 16pt;
+  color:blue;
+  margin-bottom: 200px;
+}
+tfoot {color:red;}
+th {
+  text-align: center;
+}
+h1 {
+  font-size: 60pt;
+  margin: 0px;
+}
+h2 {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.shown {
+  display: block;
+}
+button {
+  margin: 0px auto;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  margin: 20px;
+  font-size: 14pt;
+  border: 1px solid black;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+td, th{
+  padding: 5px;
+  font-size: 20pt;
+}
