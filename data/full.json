@@ -250,16 +250,16 @@
   "תּ": {
     "english_name": "tav",
     "hebrew_name": "תּו",
-    "english_equivalent": "t as in tool",
+    "english_equivalent": "t as in tool or th as in thought",
     "pronunciation": "/tav/",
     "english_letter": "t",
     "numerical_value": "400"
   },
   "ת": {
-    "english_name": "sav",
+    "english_name": "tav",
     "hebrew_name": "תָו",
-    "english_equivalent": "th as in thought",
-    "pronunciation": "/sav/",
+    "english_equivalent": "t as in tool or th as in thought",
+    "pronunciation": "/tav/",
     "english_letter": "th",
     "numerical_value": "400"
   }

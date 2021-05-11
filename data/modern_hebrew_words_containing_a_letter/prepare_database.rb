@@ -13,6 +13,8 @@ unless DB.table_exists? :words
     String :word
     String :word_bare
     Integer :count
+    Integer :nikuds
+    Integer :len
   end
 end
 
@@ -32,7 +34,9 @@ Dir['pages/*.html'].each do |file|
       end
     end
     unless words_table.where(:word_bare => word).count > 0
-      words_table.insert(:word_bare => word, :word => nil, :count => count)
+      words_table.insert(:word_bare => word,
+                         :word => nil,
+                         :count => count)
     else
       puts "Word exists: #{word}"
     end
