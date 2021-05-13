@@ -34,6 +34,6 @@ You will get the edit URL that can be shared with the speaker. Dokku
 or Heroku deployment can be done by setting the dokku remote and from
 the root of the repository running:
 
-``
+```
 git subtree push --prefix data/pronunciation_recording_app  dokku master
 ```

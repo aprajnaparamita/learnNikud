@@ -10,6 +10,9 @@ the original design before any coding started.
 
 [![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
 
+We are using the Ionic framework v5 for the core application with the
+[Ionic Native SQLite](https://ionicframework.com/docs/native/sqlite) plugin.
+
 The first task of this project was to find all the letter and nikud
 combinations and examples from their usage. This stage was completed by
 the code found in the data directory.
