@@ -38,6 +38,7 @@ export default class Table extends React.Component {
         form.append("sound[id]", document.getElementById('id').value);
         form.append("sound[filename]", document.getElementById('filename').value);
         form.append("sound[examples]", document.getElementById('edit_example').value);
+        form.append("sound[notes]", document.getElementById('notes').value);
         form.append("sound[blob]", blob, "record.mp3");
         fetch("/sounds/"+ document.getElementById('id').value, {
           method: "PUT",
@@ -51,7 +52,8 @@ export default class Table extends React.Component {
       var items = this.props.data['sound'];
       var index = 1;
       if (items) {
-        document.getElementById('edit_example').value = items['examples'];
+        document.getElementById('edit_example').value = items['examples'] || '';
+        document.getElementById('notes').value        = items['notes']    || '';
         return <tbody>
         <input type="hidden" id="id" value={items['id']} />
         <input type="hidden" id="filename" value={items['filename']} />

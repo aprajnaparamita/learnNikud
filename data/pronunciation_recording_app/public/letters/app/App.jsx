@@ -5,6 +5,17 @@ export default class App extends React.Component {
     constructor(props){
       super(props);
 
+      if (! (window.sessionStorage['legal'] == 'yes')) {
+        var r = confirm("By using this system and submitting your recordings you are agreeing to following. Your recordings will be placed under the Creative Commons Attribution-ShareAlike 4.0 International License. Click Cancel if you want to view the license. You will be given credit for your work on your recordings but for legal purposes of distribution you assign your copyright to Janet Braswell-Jeffus (Yana.) Click Ok if you agree.");
+        if (r == true) {
+          window.sessionStorage['legal'] = 'yes';
+          window.location.reload();
+        } else {
+          window.location.href = "http://creativecommons.org/licenses/by-sa/4.0/";
+        }
+        sessionStorage['myvariable'] = myVariable;
+      }
+
       this.state={
         tableData:{}
       }

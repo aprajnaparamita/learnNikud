@@ -33,7 +33,8 @@ class SoundsController < ApplicationController
    File.open(sounds_dir, "wb") do |f|
      f.write(upload.read)
    end
-   @sound.examples = params['sound']['examples']
+   @sound.examples = params['sound']['examples'] if params['sound'].has_key? 'examples'
+   @sound.notes = params['sound']['notes'] if params['sound'].has_key? 'notes'
    @sound.filename = name
    @sound.completed = true
    @sound.save
@@ -48,6 +49,6 @@ class SoundsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def sound_params
-      params.require(:sound).permit(:character, :name, :completed, :filename, :id, :blob, :example)
+      params.require(:sound).permit(:character, :name, :completed, :filename, :id, :blob, :example, :notes)
     end
 end
