@@ -8,7 +8,7 @@ original sources we teach using the most commonly used words in a
 gradual and progressive way. Here is a mockup of the original design
 before any coding started.
 
-[![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
+[![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png | width=300)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
 
 The first task of this project was to find all the letter and nikud
 combinations and examples from their usage. This stage was completed by
