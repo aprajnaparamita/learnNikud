@@ -26,7 +26,7 @@ namespace :letters do
       puts "Usage: rake letters:import name=Yana"
       exit
     end
-    nikuds = JSON.parse(File.read(Rails.root.join("..", "alephbet_with_nikud.json")))
+    nikuds = JSON.parse(File.read(Rails.root.join("public", "alephbet_with_nikud.json")))
     speaker = Speaker.create do |s|
       s.name = ENV['name']
       s.slug = SecureRandom.hex(10)
