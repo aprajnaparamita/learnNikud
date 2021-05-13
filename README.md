@@ -23,6 +23,7 @@ Pronunciation Recording App available here:
 https://github.com/hexatridecimal/learnNikud/tree/main/data/pronunciation_recording_app
 
 See the recording guide:
+
 [![Nikud Pronunciation Sound Collection App](http://img.youtube.com/vi/z1mszMaORAI/0.jpg)](http://www.youtube.com/watch?v=z1mszMaORAI "Nikud Pronunciation Sound Collection App")
 
 The third stage (in progress) is to solve for a lesson plan that will
