@@ -1,5 +1,9 @@
 # Learn Nikud
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+## About
+
 Welcome to Learn Nikud, my name is Yana Jeffus. I am learning Hebrew and
 loving it! But in learning I discovered that there is no easy to use
 nikud learning app available free. Let us change that! This project is
