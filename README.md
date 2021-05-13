@@ -5,8 +5,8 @@ loving it! But in learning I discovered that there is no easy to use
 nikud learning app available free. Let us change that! This project is
 an attempt to create an objectively better learning experience. Using
 original sources we teach using the most commonly used words in a
-gradual and progressive way. Here is a mockup of the original design
-before any coding started.
+gradual and progressive way. Click the image below to view the mockup of
+the original design before any coding started.
 
 [![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
 
