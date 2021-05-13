@@ -18,11 +18,11 @@ const Home: React.FC = () => {
         </IonCard>
         <IonCard>
         </IonCard>
-        <IonCard button="true" href="https://apps.apple.com/us/app/alef-bet-wheel/id1088249022">
-            <img src="/alef_bet_wheel.png" class="app_ad" />
+        <IonCard href="https://apps.apple.com/us/app/alef-bet-wheel/id1088249022">
+            <img src="/alef_bet_wheel.png" className="app_ad" />
         </IonCard>
-        <IonCard button="true" href="https://apps.apple.com/us/app/write-it-hebrew/id1400944424">
-            <img src="/write_it_hebrew.png" class="app_ad" />
+        <IonCard href="https://apps.apple.com/us/app/write-it-hebrew/id1400944424">
+            <img src="/write_it_hebrew.png" className="app_ad" />
         </IonCard>
       </IonContent>
     </IonPage>
