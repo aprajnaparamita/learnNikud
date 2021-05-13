@@ -31,7 +31,9 @@ CREATE TABLE `words` (
 );
 CREATE TABLE `word_counts` (
   `word` varchar(255),
-  `count` integer
+  `count` integer,
+  `nikuds` integer,
+  `len` integer
 );
 ```
 
