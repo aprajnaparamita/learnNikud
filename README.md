@@ -4,7 +4,7 @@
 
 ## About
 
-Welcome to Learn Nikud, my name is Yana Jeffus. I am learning Hebrew and
+Welcome to Learn Nikud, my name is Yona Jeffus. I am learning Hebrew and
 loving it! But in learning I discovered that there is no easy to use
 nikud learning app available free. Let us change that! This project is
 an attempt to create an objectively better learning experience. Using
@@ -57,7 +57,7 @@ each answer.
 # License
 
 Learn Nikud
-Copyright (C) 2021 Yana Braswell-Jeffus
+Copyright (C) 2021 Yona Jeffus
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -76,7 +76,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 When contributing to this repository, describe your work thoroughly in
 your pull request. Contact and collaboration are welcome. Pleae contact
-Yana with any questions at: jjeffus@gmail.com
+Yona with any questions at: jjeffus@gmail.com
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 

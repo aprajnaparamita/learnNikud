@@ -30,10 +30,22 @@ the database.
 bin/rake letters:import name=Yana --trace
 ```
 
-You will get the edit URL that can be shared with the speaker. Dokku
-or Heroku deployment can be done by setting the dokku remote and from
-the root of the repository running:
+You will get the edit URL that can be shared with the speaker. You will
+see this something like: /letters/#4203e526eeeae7f6aaf4
+This URL can be added to the main url of the app, for example:
+https://myapp.mydomain.com/letters/#4203e526eeeae7f6aaf4
+And the translator can be sent to this URL to do the recording work.
+
+Dokku or Heroku deployment can be done by setting the dokku remote and
+from the root of the repository running:
 
 ```
 git subtree push --prefix data/pronunciation_recording_app  dokku master
+```
+
+You will also need to add the plugin for https support letsencrypt.
+
+```
+sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
+dokku letsencrypt:enable <appname>
 ```
