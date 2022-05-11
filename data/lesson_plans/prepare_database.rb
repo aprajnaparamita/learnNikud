@@ -42,3 +42,4 @@ modern_db['select * from words'].each do |row|
   end
 end
 puts "Combined database in all_words.db"
+puts "Next run: ruby count_nikuds.rb"

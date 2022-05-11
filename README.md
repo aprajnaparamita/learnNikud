@@ -4,28 +4,88 @@
 
 ## About
 
-Welcome to Learn Nikud, my name is Yona Jeffus. I am learning Hebrew and
-loving it! But in learning I discovered that there is no easy to use
-nikud learning app available free. Let us change that! This project is
-an attempt to create an objectively better learning experience. Using
+גֹּ֣ל אֶל־יְהוָ֣ה מַעֲשֶֹ֑יךָ וְ֜יִכֹּ֗נוּ מַחְשְׁבֹתֶֽיךָ
+Commit your affairs to the Lord, and your plans will be established.
+Mishlei 16:3
+B''H
+
+Over 1 year in development! 🎉
+
+Welcome to Learn Nikud, my name is Yona Jeffus. I have been a software
+engineer specializing in educational software [for over 20
+years](https://www.linkedin.com/in/janet-jeffus-b0709720/). I
+was learning Hebrew and realized there is no nikud learning app
+available free. With G-d's help we can change that! This project is
+an attempt to create the best app anywhere on the market. Using
 original sources we teach using the most commonly used words in a
-gradual and progressive way. Click the image below to view the mockup of
-the original design before any coding started.
+gradual and progressive way. Everywhere we use repetition, mnemonic
+devices and entertaining videos to help allow people of all ages
+to quickly and easily learn nikud and some basic vocabulary.
+
+I'm not a native Hebrew speaker so this project is my way of
+using [the Feynman Tecnique](https://fs.blog/feynman-technique/)
+to learn the material myself.
+
+# Development Stages
+
+1. Initial Planning
+
+מַחְשְׁב֣וֹת חָ֖רוּץ אַךְ־לְמוֹתָ֑ר וְכָל־אָ֜֗ץ אַךְ־לְמַחְסֽוֹר
+The plans of a diligent man lead only to advantage, whereas every hasty
+one hurries only to want.
+- Mishle 21:5
+
+The first thing we do is examine which features are needed, make
+app mockups and think about the best way to present the material.
+Click the image below to view the mockup of the original design before
+any coding started.
 
 [![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
 
-We are using the Ionic framework v5 for the core application with the
-[Ionic Native SQLite](https://ionicframework.com/docs/native/sqlite) plugin.
+Sephardic or common Israeli pronouciation was decided on since it allows
+both for Torah study and modern Hebrew usage. I would like to include a
+system similar to some ad supported apps that advertises important
+rabbis and programs users may find edifying. These would not be
+for-profit but would rather be to spread awareness about them.
 
-The first task of this project was to find all the letter and nikud
-combinations and examples from their usage. This stage was completed by
-the code found in the data directory.
+2. Technological Considerations
+
+Several different languages and frameworks were considered for
+development. With the decision to go with Ionic framework v5 for the
+core application with the [Ionic Native SQLite](https://ionicframework.com/docs/native/sqlite) plugin
+for storing student progress and scores. As well as the [Ionic Native
+Video](https://ionicframework.com/docs/native/video-player) player
+plugin for playing videos. Lesson plans, practice questions and
+tests are stored in JSON format. [DaVinci
+Resolve](https://www.blackmagicdesign.com/products/davinciresolve) is
+being used to make the videos for each lesson.
+
+In order to teach the most common words I needed a way to objectively
+select the best examples for the lessons. Hebrew University's word
+frequency database was used along with the Tanakh and Siddur. You
+can read more about this process here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data
 
-The second stage was to provide recordings of a native Hebrew speaker
-saying the Hebrew nikud and words. This is completed by the Learn Nikud
-Pronunciation Recording App available here:
+3. Writing Lesson Plans
+
+With the statistical data for word and nikud usage in hand I began
+writing the [lesson
+plans](https://github.com/hexatridecimal/learnNikud/tree/main/data/lesson_plans).
+. These are written in [LibreOffice](https://www.libreoffice.org/)
+Writer.
+
+4. Review by Native Speakers
+
+הָפֵ֣ר מַ֖חֲשָׁבוֹת בְּאֵ֣ין ס֑וֹד וּבְרֹ֖ב יוֹעֲצִ֣ים תָּקֽוּם
+Plans are foiled for lack of counsel, but they are established through
+many advisers.
+Mishle 15:22
+
+In this stage the lesson plans will be submitted to native speakers to
+ensure the material is effecticely teaching a student the correct way.
+In order to make the pronunciation recordings quickly and easily
+I created the Learn Nikud Pronunciation Recording App available here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data/pronunciation_recording_app
 
@@ -33,31 +93,40 @@ See the recording guide:
 
 [![Nikud Pronunciation Sound Collection App](http://img.youtube.com/vi/z1mszMaORAI/0.jpg)](http://www.youtube.com/watch?v=z1mszMaORAI "Nikud Pronunciation Sound Collection App")
 
-The third stage (in progress) is to solve for a lesson plan that will
-gradually reveal nikud in order of commomness. So as each nikud is
-revealed the examples will only contain nikud already known. This way
-the software can query for examples the student already knows. We will
-do this two nikud per-unit, with only one nikud in the final seventh
-lesson/unit.
+This way native speakers can critique the lesson plans, edit them
+and provide native recordings of pronunciations.
 
-The fourth stage is writing the practice mode. The lessons will go in
-order of commonness. The nikud sounds for both nikud will be presented
-at the beginning of the lesson. Then 30 examples will be picked, 15 for
-each nikud. The test mode will be in effect since a star rating will be
-given based on the success percentage in the lesson. 70%+ will be 1
-star, 80%+ is two star, 90%+ is 3 stars. When a practice for a unit has
-3 stars the test mode unlocks for that unit.
+5. Video Editing and Production
 
-The fifth and final stage is writing the test mode. This will be very
-nearly the same code as the practice code. The difference is that the
-letter sounds are not presented at the beginning of a unit. And each
-question will be the letter/nikud with english letter/nikud buttons on
-each answer.
+Each lesson for each video will be edited and put together in DaVinci
+Resolve and rendered to 1080x1920 mobile video format. Recording files
+made by the recording app will be used where necessary.
+
+4. App Development
+
+The basic framework of the Ionic App is complete but the next stage will
+be to convert the lesson plans to JSON and have the app "play" each
+lesson. This will include scoring the practice and tests of each lesson
+and unit.
+
+5. Beta Testing and Launch
+
+A version will be released to the Apple App Store and Google Play for
+iOS and Android respectively. Initial user feedback and iteration will
+be agressively pursued to create a polished and final product.
+
+# How Can I Help?
+
+Every level of help is needed! We need native speakers to critique the
+content, animators to create the videos, beta testers to try it out, and
+app developers to help with code. This is an open source project! You
+can start anytime and send in pull requests. Please see the section on
+contribution below.
 
 # License
 
 Learn Nikud
-Copyright (C) 2021 Yona Jeffus
+Copyright (C) 2022 Janet (Yona) Jeffus
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -85,7 +154,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a
    build.
 2. Update the README.md with details of changes to the interface, this includes new environment
-   variables, exposed ports, useful file locations and parameters.
+   variables, useful file locations and parameters.
 3. Make your request, it will be reviewed as quickly as possible.
 
 ## Code of Conduct

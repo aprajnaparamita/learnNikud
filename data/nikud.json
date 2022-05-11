@@ -3,8 +3,8 @@
     "hebrew_name": "קָמֶץ",
     "code_point": "05B8",
     "sounds": 1,
-    "vowel_sound": "u",
-    "description": "Looks like a 'T' and can be found under the letter, makes a short 'u' sound (as in sun)"
+    "vowel_sound": "ah",
+    "description": "Looks like a 'T' and can be found under the letter and makes an 'ah' sound (as in darn)"
   },
   "Patah": {
     "hebrew_name": "פַּתַח",
@@ -17,8 +17,8 @@
     "hebrew_name": "צֵירֵי",
     "code_point": "05B5",
     "sounds": 1,
-    "vowel_sound": "a",
-    "description": "Two side-by-side dots under the letter, makes a long 'a' sound (as in say)"
+    "vowel_sound": "e",
+    "description": "Two side-by-side dots under the letter, makes a short 'e' sound (as in red)"
   },
   "Segol": {
     "hebrew_name": "סְגוֹל",
@@ -31,8 +31,8 @@
     "hebrew_name": "שְׁוָא",
     "code_point": "05B0",
     "sounds": 2,
-    "vowel_sound": "silent or ih",
-    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'ih' sound, as in lick (in which case it is called a sheva na)"
+    "vowel_sound": "silent or e",
+    "description": "Two dots stacked below the letter, can either have no sound at all (this is called a sheva nach) or it can make a quick 'e' sound, as in red (in which case it is called a sheva na)"
   },
   "Cholam Haser": {
     "hebrew_name": "חוֹלָם חָסֵר",

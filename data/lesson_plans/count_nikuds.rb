@@ -33,6 +33,7 @@ counts = {}
   end
 end
 
+all_db.drop_table :nikuds
 unless all_db.table_exists? :nikuds
   all_db.create_table :nikuds do
     primary_key :id
@@ -59,4 +60,11 @@ sorted_keys.each do |english_name|
   nikuds_table.insert(row)
 end
 puts "Created nikuds in all_words.db"
-puts "Now run add_nikud_counts.rb"
+words_table= all_db[:words] # Create a dataset
+all_db['select id, word from words'].each do |row|
+  word = row[:word]
+  count = word.scan(/[\u0591-\u05c7]/).size
+  puts "Word: #{word} Count: #{count}"
+  words_table.where(id: row[:id]).update(nikuds: count)
+end
+puts "Now run create_nikuds_words.rb"

@@ -16,6 +16,7 @@ def pack_complex(code_point)
 end
 
 all_db    = Sequel.connect('sqlite://all_words.db')
+all_db.drop_table :nikuds_words
 unless all_db.table_exists? :nikuds_words
   all_db.create_table :nikuds_words do
     primary_key :id
@@ -43,3 +44,4 @@ all_db['select * from words'].each do |row|
   end
 end
 puts "Created nikuds_words in all_words.db"
+puts "Now run: ruby create_letters.rb"
