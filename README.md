@@ -42,8 +42,7 @@ to learn the material myself.
 
 The first thing we do is examine which features are needed, make
 app mockups and think about the best way to present the material.
-Click the image below to view the mockup of the original design before
-any coding started.
+Click the image below to view the mockup of the original design.
 
 [![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
 
