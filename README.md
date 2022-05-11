@@ -33,10 +33,12 @@ to learn the material myself.
 
 1. Initial Planning
 
-מַחְשְׁב֣וֹת חָ֖רוּץ אַךְ־לְמוֹתָ֑ר וְכָל־אָ֜֗ץ אַךְ־לְמַחְסֽוֹר
-The plans of a diligent man lead only to advantage, whereas every hasty
-one hurries only to want.
-- Mishle 21:5
+```
+  מַחְשְׁב֣וֹת חָ֖רוּץ אַךְ־לְמוֹתָ֑ר וְכָל־אָ֜֗ץ אַךְ־לְמַחְסֽוֹר
+  The plans of a diligent man lead only to advantage, whereas every hasty
+    one hurries only to want.
+  - Mishle 21:5
+```
 
 The first thing we do is examine which features are needed, make
 app mockups and think about the best way to present the material.
@@ -80,10 +82,12 @@ Writer.
 
 4. Review by Native Speakers
 
-הָפֵ֣ר מַ֖חֲשָׁבוֹת בְּאֵ֣ין ס֑וֹד וּבְרֹ֖ב יוֹעֲצִ֣ים תָּקֽוּם
-Plans are foiled for lack of counsel, but they are established through
-many advisers.
-Mishle 15:22
+```
+  הָפֵ֣ר מַ֖חֲשָׁבוֹת בְּאֵ֣ין ס֑וֹד וּבְרֹ֖ב יוֹעֲצִ֣ים תָּקֽוּם
+  Plans are foiled for lack of counsel, but they are established through
+    many advisers.
+  - Mishle 15:22
+```
 
 In this stage the lesson plans will be submitted to native speakers to
 ensure the material is effecticely teaching a student the correct way.
