@@ -31,7 +31,7 @@ to learn the material myself.
 
 # Development Stages
 
-1. Initial Planning
+## Initial Planning
 
 ```
   מַחְשְׁב֣וֹת חָ֖רוּץ אַךְ־לְמוֹתָ֑ר וְכָל־אָ֜֗ץ אַךְ־לְמַחְסֽוֹר
@@ -56,7 +56,7 @@ system similar to some ad supported apps that advertises important
 rabbis and programs users may find edifying. These would not be
 for-profit but would rather be to spread awareness about them.
 
-2. Technological Considerations
+## Technological Considerations
 
 Several different languages and frameworks were considered for
 development. With the decision to go with Ionic framework v5 for the
@@ -75,7 +75,7 @@ can read more about this process here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data
 
-3. Writing Lesson Plans
+## Writing Lesson Plans (Current Stage)
 
 With the statistical data for word and nikud usage in hand I began
 writing the [lesson
@@ -83,7 +83,7 @@ plans](https://github.com/hexatridecimal/learnNikud/tree/main/data/lesson_plans)
 . These are written in [LibreOffice](https://www.libreoffice.org/)
 Writer.
 
-4. Review by Native Speakers
+## Review by Native Speakers
 
 ```
   הָפֵ֣ר מַ֖חֲשָׁבוֹת בְּאֵ֣ין ס֑וֹד וּבְרֹ֖ב יוֹעֲצִ֣ים תָּקֽוּם
@@ -106,20 +106,20 @@ See the recording guide:
 This way native speakers can critique the lesson plans, edit them
 and provide native recordings of pronunciations.
 
-5. Video Editing and Production
+##  Video Editing and Production
 
 Each lesson for each video will be edited and put together in DaVinci
 Resolve and rendered to 1080x1920 mobile video format. Recording files
 made by the recording app will be used where necessary.
 
-4. App Development
+## App Development
 
 The basic framework of the Ionic App is complete but the next stage will
 be to convert the lesson plans to JSON and have the app "play" each
 lesson. This will include scoring the practice and tests of each lesson
 and unit.
 
-5. Beta Testing and Launch
+## Beta Testing and Launch
 
 A version will be released to the Apple App Store and Google Play for
 iOS and Android respectively. Initial user feedback and iteration will
