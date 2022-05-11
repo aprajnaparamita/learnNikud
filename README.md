@@ -46,6 +46,10 @@ Click the image below to view the mockup of the original design.
 
 [![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
 
+Since this intial design requirements have been updated and the final
+version will be slightly more complex. With vocabulary, practice and
+a more complex test system.
+
 Sephardic or common Israeli pronouciation was decided on since it allows
 both for Torah study and modern Hebrew usage. I would like to include a
 system similar to some ad supported apps that advertises important
