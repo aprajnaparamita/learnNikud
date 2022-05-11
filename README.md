@@ -4,9 +4,11 @@
 
 ## About
 
-### גֹּ֣ל אֶל־יְהוָ֣ה מַעֲשֶֹ֑יךָ וְ֜יִכֹּ֗נוּ מַחְשְׁבֹתֶֽיךָ
-### Commit your affairs to the Lord, and your plans will be established.
-### Mishlei 16:3
+```
+ גֹּ֣ל אֶל־יְהוָ֣ה מַעֲשֶֹ֑יךָ וְ֜יִכֹּ֗נוּ מַחְשְׁבֹתֶֽיךָ
+ Commit your affairs to the Lord, and your plans will be established.
+ - Mishlei 16:3
+```
 
 B''H
 
