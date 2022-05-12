@@ -80,9 +80,9 @@ https://github.com/hexatridecimal/learnNikud/tree/main/data
 
 With the statistical data for word and nikud usage in hand I began
 writing the [lesson
-plans](https://github.com/hexatridecimal/learnNikud/tree/main/data/lesson_plans).
-. These are written in [LibreOffice](https://www.libreoffice.org/)
-Writer.
+plans](https://github.com/hexatridecimal/learnNikud/raw/main/data/lesson_plans/Learn%20Nikud%20-%20Lesson%20Plans.odt). These are written in [LibreOffice](https://www.libreoffice.org/)
+Writer. The writing guide is [available
+here](https://github.com/hexatridecimal/learnNikud/tree/main/data/lesson_plans).
 
 ## Review by Native Speakers
 
