@@ -48,7 +48,8 @@ Click the image below to view the mockup of the original design.
 
 Since this intial design requirements have been updated and the final
 version will be slightly more complex. With vocabulary, practice and
-a more complex test system.
+a more complex test system. Internationalization will be considered
+during the design process although English is the first target language.
 
 Sephardic or common Israeli pronouciation was decided on since it allows
 both for Torah study and modern Hebrew usage. I would like to include a
