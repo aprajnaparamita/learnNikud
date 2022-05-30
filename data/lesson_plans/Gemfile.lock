@@ -1,0 +1,18 @@
+GIT
+  remote: https://github.com/AnalyzePlatypus/TranslitKit.git
+  revision: 4c607908b306f482b19d5ed46526d9c0ae22a345
+  specs:
+    translit_kit (1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  translit_kit!
+
+BUNDLED WITH
+   2.1.4
