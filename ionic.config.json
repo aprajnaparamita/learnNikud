@@ -1,7 +1,0 @@
-{
-  "name": "learnNikud",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}

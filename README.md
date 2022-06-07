@@ -60,12 +60,10 @@ for-profit but would rather be to spread awareness about them.
 ## 2. Technological Considerations (✅)
 
 Several different languages and frameworks were considered for
-development. With the decision to go with Ionic framework v5 for the
-core application with the [Ionic Native SQLite](https://ionicframework.com/docs/native/sqlite) plugin
-for storing student progress and scores. As well as the [Ionic Native
-Video](https://ionicframework.com/docs/native/video-player) player
-plugin for playing videos. Lesson plans, practice questions and
-tests are stored in JSON format. [SynFig
+development. With the decision to go with Flutter for the
+core application with the [Hive](https://docs.hivedb.dev/#/README) plugin
+for storing student progress and scores. 
+Lesson plans, practice questions and tests are stored in JSON format. [SynFig
 Studio](https://www.synfig.org/) is being used to create animations for
 videos. And the wonderful [OpenShot Video
 Editor](https://www.openshot.org) is being used to combine the lesson
