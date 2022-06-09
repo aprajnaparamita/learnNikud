@@ -18,20 +18,23 @@ Welcome to Learn Nikud, my name is Yona Jeffus. I have been a software
 engineer specializing in educational software [for over 20
 years](https://www.linkedin.com/in/janet-jeffus-b0709720/). I
 was learning Hebrew and realized there is no nikud learning app
-available free. With G-d's help we can change that! This project is
-an attempt to create the best app anywhere on the market. Using
-original sources we teach using the most commonly used words in a
-gradual and progressive way. Everywhere we use repetition, mnemonic
-devices and entertaining videos to help allow people of all ages
-to quickly and easily learn nikud and some basic vocabulary.
-
-I'm not a native Hebrew speaker so this project is my way of
-using [the Feynman Tecnique](https://fs.blog/feynman-technique/)
-to learn the material myself.
+available free. There are great free apps to learn the Hebrew aleph-bet
+such as [Write
+It-Hebrew](https://apps.apple.com/us/app/write-it-hebrew/id1400944424)
+but there is no 100% free app for lerning nikud. Wouldn't it be amazing
+if there was a professional quality free app that would teach a new
+Hebrew learner from the aleph-bet to dovening in a month or less? That
+is the ultimate vision of this software and repository. The first goal
+is leanring nikud since this is the single biggest missing piece. A
+learner can use [Learn Trope](http://learntrope.com/) to learn the
+dovening portion, and I already mentioned one of many for learning the
+names or sounds of the aleph-bet. So this is the first and most critical
+missing piece. There is nothing more precious than teaching the Leshon
+Hakodesh and teaching dovening! Let's make something wonderful!
 
 # Development Stages
 
-## 1. Initial Planning (✅)
+## 1. Development Planning (✅)
 
 ```
   מַחְשְׁב֣וֹת חָ֖רוּץ אַךְ־לְמוֹתָ֑ר וְכָל־אָ֜֗ץ אַךְ־לְמַחְסֽוֹר
@@ -40,22 +43,39 @@ to learn the material myself.
   - Mishle 21:5
 ```
 
-The first thing we do is examine which features are needed, make
-app mockups and think about the best way to present the material.
-Click the image below to view the mockup of the original design.
+### Understanding The Audience
 
-[![Learn Nikud Pronunciation App](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/screen1.png)](https://app.moqups.com/uEk2UmZw30/view/page/ae8fe8eb0 "Learn Nikud Pronunciation App Mockup")
+The intended audience is Jews of all ages who are learning Hebrew for the
+first time. This will be the primary and first intended audience,
+followed by non-Jews on a path to conversion, and lastly Christians and
+Muslims learning Hebrew.
 
-Since this intial design requirements have been updated and the final
-version will be slightly more complex. With vocabulary, practice and
-a more complex test system. Internationalization will be considered
-during the design process although English is the first target language.
+### Design Consideration
 
-Sephardic or common Israeli pronouciation was decided on since it allows
-both for Torah study and modern Hebrew usage. I would like to include a
-system similar to some ad supported apps that advertises important
-rabbis and programs users may find edifying. These would not be
-for-profit but would rather be to spread awareness about them.
+There will be 4 main parts of the final application.
+
+1. Learn Aleph-Bet
+2. Learn Nikud (first priority)
+3. Learn Trope
+4. Learn Tefillah
+
+Each lesson will be preceding by a full-screen vertical format mobile
+video lesson containing animation, video and songs. After each lesson
+there will be a practice section with questions from the video and
+opportunities to practice. The questions will be multiple choice with
+audio pronunciations for options if applicable. These practice tests are
+not scored, but a user cannot proceed to the next question until they
+have selected the correct answer.
+
+Every X number of questions an ad will play. This ad will be full-screen
+vertical mobile format video of a rabbi advertising their program.
+Clicking anywhere on the video will take the user to the site
+recommended by the rabbi. A small countdown button in the corner will
+allow the user to skip the video after 10 seconds. Sephardic or common
+Israeli pronouciation will be used on since it allows both for Torah
+study and modern Hebrew usage. Every 2 lessons there will be a unit
+test. These unti tests are scored and the user is given 1-5 stars for
+the content in the unit.
 
 ## 2. Technological Considerations (✅)
 
@@ -69,14 +89,14 @@ videos. And the wonderful [OpenShot Video
 Editor](https://www.openshot.org) is being used to combine the lesson
 videos and create the final HD lessons.
 
+## 3. Writing Lesson Plans (Current Stage) (💪)
+
 In order to teach the most common words I needed a way to objectively
 select the best examples for the lessons. Hebrew University's word
 frequency database was used along with the Tanakh and Siddur. You
 can read more about this process here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data
-
-## 3. Writing Lesson Plans (Current Stage) (💪)
 
 With the statistical data for word and nikud usage in hand I began
 writing the [lesson
@@ -95,7 +115,10 @@ here](https://github.com/hexatridecimal/learnNikud/tree/main/data/lesson_plans).
 
 In this stage the lesson plans will be submitted to native speakers to
 ensure the material is effecticely teaching a student the correct way.
-In order to make the pronunciation recordings quickly and easily
+
+### Recording App
+
+In order to make the answers anf letter recordings quickly and easily
 I created the Learn Nikud Pronunciation Recording App available here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data/pronunciation_recording_app
@@ -105,7 +128,7 @@ See the recording guide:
 [![Nikud Pronunciation Sound Collection App](http://img.youtube.com/vi/z1mszMaORAI/0.jpg)](http://www.youtube.com/watch?v=z1mszMaORAI "Nikud Pronunciation Sound Collection App")
 
 This way native speakers can critique the lesson plans, edit them
-and provide native recordings of pronunciations.
+and provide native recordings of pronunciations. 
 
 ## 5. Video Editing and Production (☑️)
 
@@ -115,7 +138,7 @@ made by the recording app will be used where necessary.
 
 ## 6. App Development (☑️)
 
-The basic framework of the Ionic App is complete but the next stage will
+The basic framework of the Flutter App is complete but the next stage will
 be to convert the lesson plans to JSON and have the app "play" each
 lesson. This will include scoring the practice and tests of each lesson
 and unit.
