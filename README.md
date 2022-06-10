@@ -52,7 +52,7 @@ Muslims learning Hebrew.
 
 ### Wireframe Design
 
-[![App Design](http://img.youtube.com/vi/z1mszMaORAI/0.jpg)](http://www.youtube.com/watch?v=z1mszMaORAI "Nikud Pronunciation Sound Collection App")
+[![App Design]()](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/wireframes.png)
 
 ### Design Consideration
 
