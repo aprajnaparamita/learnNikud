@@ -50,6 +50,10 @@ first time. This will be the primary and first intended audience,
 followed by non-Jews on a path to conversion, and lastly Christians and
 Muslims learning Hebrew.
 
+### Wireframe Design
+
+[![App Design](http://img.youtube.com/vi/z1mszMaORAI/0.jpg)](http://www.youtube.com/watch?v=z1mszMaORAI "Nikud Pronunciation Sound Collection App")
+
 ### Design Consideration
 
 There will be 4 main parts of the final application.
