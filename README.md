@@ -52,7 +52,7 @@ Muslims learning Hebrew.
 
 ### Wireframe Design
 
-[![App Design]()](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/wireframes.png)
+[![App Design](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/wireframes_thumb.png)](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/wireframes.png)
 
 ### Design Consideration
 
