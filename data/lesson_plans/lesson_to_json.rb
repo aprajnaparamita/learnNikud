@@ -28,6 +28,8 @@ filename = ARGV.shift
 input = File.read(filename)
 parts = input.strip.split(/Question \d+:/i)
 i = 1
+sounds = 0
+figures = 0
 parts.each do |part|
   next if part == nil or part.strip == ""
   item = {
@@ -38,6 +40,7 @@ parts.each do |part|
   if question.strip =~ /^\((Image.*)\).*/
     desc = $1
     question.gsub!(/^\(Image.*\).*/, "")
+    figures += 1
     item["figure"] = {
       "description": desc,
       "src": "#{lesson_name}/question_#{i}/figure_1.webp",
@@ -67,6 +70,7 @@ parts.each do |part|
       "answer": answer.strip
     }
     if answer.strip =~ /^\w+$/
+      sounds += 1
       a["sound"] = "#{lesson_name}/question_#{i}/answer_#{j}.m4a"
     end
     a["correct"] = true if correct
@@ -79,6 +83,8 @@ end
 full["questions"] = questions
 output = filename.gsub(/\.txt/, ".json")
 puts "Found #{i} questions..."
+puts "Found #{sounds} sounds..."
+puts "Found #{figures} figures..."
 puts "Writing #{output}..."
 File.open(output, "w") do |f|
   f.write JSON.pretty_generate(full)
