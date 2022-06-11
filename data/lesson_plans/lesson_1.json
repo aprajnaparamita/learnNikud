@@ -1,0 +1,698 @@
+{
+  "title": "Lesson 1",
+  "slug": "lesson_1",
+  "video_intro": "lesson_1/lesson_1_intro.mp4",
+  "summary": "",
+  "questions": [
+    {
+      "title": "Question 1",
+      "slug": "question_1",
+      "figure": {
+        "description": "Image of kamatz with nikudot highlighted.",
+        "src": "lesson_1/question_1/figure_1.webp",
+        "question": "What is the name of this nikud?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "Dagesh",
+          "sound": "lesson_1/question_1/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "Kamatz",
+          "sound": "lesson_1/question_1/answer_2.m4a",
+          "correct": true
+        },
+        {
+          "index": 3,
+          "answer": "Nikkudot",
+          "sound": "lesson_1/question_1/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "Lamed",
+          "sound": "lesson_1/question_1/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 2",
+      "slug": "question_2",
+      "figure": {
+        "description": "Image of kamatz with nikudot highlighted",
+        "src": "lesson_1/question_2/figure_1.webp",
+        "question": "What is this nikud mean or represent?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "Victory and the sephira of Natzach."
+        },
+        {
+          "index": 2,
+          "answer": "The first vowel of creation."
+        },
+        {
+          "index": 3,
+          "answer": "The chair of two dots."
+        },
+        {
+          "index": 4,
+          "answer": "Concealment and the sephira of Kesser",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "slug": "question_3",
+      "figure": {
+        "description": "Image of kamatz with nikudot highlighted",
+        "src": "lesson_1/question_3/figure_1.webp",
+        "question": "What sound does this nikud make?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "Silent or an “E” sound like in “red”."
+        },
+        {
+          "index": 2,
+          "answer": "A “U” sound like in Universe."
+        },
+        {
+          "index": 3,
+          "answer": "The nikud means a pause only."
+        },
+        {
+          "index": 4,
+          "answer": "A mouth that says “Ahhh”, like in “far”.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 4",
+      "slug": "question_4",
+      "figure": {
+        "word": "שָׁלוֹם",
+        "meaning": "hello, peace",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "sheelome",
+          "sound": "lesson_1/question_4/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "shalom",
+          "sound": "lesson_1/question_4/answer_2.m4a",
+          "correct": true
+        },
+        {
+          "index": 3,
+          "answer": "sheleem",
+          "sound": "lesson_1/question_4/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "shilom",
+          "sound": "lesson_1/question_4/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 5",
+      "slug": "question_5",
+      "figure": {
+        "word": "רָע‎",
+        "meaning": "evil, bad",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "reeeay",
+          "sound": "lesson_1/question_5/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "riiuuu",
+          "sound": "lesson_1/question_5/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "raaah",
+          "sound": "lesson_1/question_5/answer_3.m4a",
+          "correct": true
+        },
+        {
+          "index": 4,
+          "answer": "roooh",
+          "sound": "lesson_1/question_5/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 6",
+      "slug": "question_6",
+      "figure": {
+        "word": "תּוֹרָה",
+        "meaning": "Torah",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "torah",
+          "sound": "lesson_1/question_6/answer_1.m4a",
+          "correct": true
+        },
+        {
+          "index": 2,
+          "answer": "toe-rion"
+        },
+        {
+          "index": 3,
+          "answer": "torioh",
+          "sound": "lesson_1/question_6/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "tirah",
+          "sound": "lesson_1/question_6/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 7",
+      "slug": "question_7",
+      "figure": {
+        "word": "מָיִם",
+        "meaning": "Water",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "moyam",
+          "sound": "lesson_1/question_7/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "moyim",
+          "sound": "lesson_1/question_7/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "meyim",
+          "sound": "lesson_1/question_7/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "mayeem",
+          "sound": "lesson_1/question_7/answer_4.m4a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 8",
+      "slug": "question_8",
+      "figure": {
+        "word": "רָב",
+        "meaning": "great teacher, many or much, great",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "rev",
+          "sound": "lesson_1/question_8/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "reb",
+          "sound": "lesson_1/question_8/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "riv",
+          "sound": "lesson_1/question_8/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "rav",
+          "sound": "lesson_1/question_8/answer_4.m4a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 9",
+      "slug": "question_9",
+      "figure": {
+        "word": "מָה",
+        "meaning": "what or how",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "mee",
+          "sound": "lesson_1/question_9/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "mii",
+          "sound": "lesson_1/question_9/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "maah",
+          "sound": "lesson_1/question_9/answer_3.m4a",
+          "correct": true
+        },
+        {
+          "index": 4,
+          "answer": "mooh",
+          "sound": "lesson_1/question_9/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 10",
+      "slug": "question_10",
+      "figure": {
+        "word": "כָּל",
+        "meaning": "All, the whole",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "kool",
+          "sound": "lesson_1/question_10/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "kil",
+          "sound": "lesson_1/question_10/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "kel",
+          "sound": "lesson_1/question_10/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "kal",
+          "sound": "lesson_1/question_10/answer_4.m4a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 11",
+      "slug": "question_11",
+      "figure": {
+        "word": "אָז‎",
+        "meaning": "So, then, at that time",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "az",
+          "sound": "lesson_1/question_11/answer_1.m4a",
+          "correct": true
+        },
+        {
+          "index": 2,
+          "answer": "ezz",
+          "sound": "lesson_1/question_11/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "is",
+          "sound": "lesson_1/question_11/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "eez",
+          "sound": "lesson_1/question_11/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 12",
+      "slug": "question_12",
+      "figure": {
+        "word": "עוֹלָם",
+        "meaning": "world (modern), everlasting (ancient)",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "oolem",
+          "sound": "lesson_1/question_12/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "oolim",
+          "sound": "lesson_1/question_12/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "ohlam",
+          "sound": "lesson_1/question_12/answer_3.m4a",
+          "correct": true
+        },
+        {
+          "index": 4,
+          "answer": "aylam",
+          "sound": "lesson_1/question_12/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 13",
+      "slug": "question_13",
+      "figure": {
+        "word": "גָּדוֹל",
+        "meaning": "big, large, great, important",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "goo-doll"
+        },
+        {
+          "index": 2,
+          "answer": "gah-dol",
+          "correct": true
+        },
+        {
+          "index": 3,
+          "answer": "gi-dal"
+        },
+        {
+          "index": 4,
+          "answer": "gadil",
+          "sound": "lesson_1/question_13/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 14",
+      "slug": "question_14",
+      "figure": {
+        "word": "אָסָא",
+        "meaning": "a son of King David",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "essah",
+          "sound": "lesson_1/question_14/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "issah",
+          "sound": "lesson_1/question_14/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "esseh",
+          "sound": "lesson_1/question_14/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "assah",
+          "sound": "lesson_1/question_14/answer_4.m4a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 15",
+      "slug": "question_15",
+      "figure": {
+        "word": "אָסַר",
+        "meaning": "To bind, imprison",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "aser",
+          "sound": "lesson_1/question_15/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "assar",
+          "sound": "lesson_1/question_15/answer_2.m4a",
+          "correct": true
+        },
+        {
+          "index": 3,
+          "answer": "emer",
+          "sound": "lesson_1/question_15/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "assir",
+          "sound": "lesson_1/question_15/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 16",
+      "slug": "question_16",
+      "figure": {
+        "word": "טוֹבָה",
+        "meaning": "Goodness, a favor (modern)",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "tivah",
+          "sound": "lesson_1/question_16/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "tovir",
+          "sound": "lesson_1/question_16/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "tov",
+          "sound": "lesson_1/question_16/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "tovah",
+          "sound": "lesson_1/question_16/answer_4.m4a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 17",
+      "slug": "question_17",
+      "figure": {
+        "word": "טָהוֹר",
+        "meaning": "clean, pure",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "tah-hor",
+          "correct": true
+        },
+        {
+          "index": 2,
+          "answer": "tihoor",
+          "sound": "lesson_1/question_17/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "tihor",
+          "sound": "lesson_1/question_17/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "tahim",
+          "sound": "lesson_1/question_17/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 18",
+      "slug": "question_18",
+      "figure": {
+        "word": "מָקוֹם",
+        "meaning": "place, room, city",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "mikom",
+          "sound": "lesson_1/question_18/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "mahkom",
+          "sound": "lesson_1/question_18/answer_2.m4a",
+          "correct": true
+        },
+        {
+          "index": 3,
+          "answer": "makeem",
+          "sound": "lesson_1/question_18/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "mekeem",
+          "sound": "lesson_1/question_18/answer_4.m4a"
+        }
+      ]
+    },
+    {
+      "title": "Question 19",
+      "slug": "question_19",
+      "figure": {
+        "word": "רָצון",
+        "meaning": "desire, will, to be acceptable",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "loohem",
+          "sound": "lesson_1/question_19/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "locham",
+          "sound": "lesson_1/question_19/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "lechem",
+          "sound": "lesson_1/question_19/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "lahem",
+          "sound": "lesson_1/question_19/answer_4.m4a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 20",
+      "slug": "question_20",
+      "figure": {
+        "word": "בָּהּ",
+        "meaning": "In her",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "boo",
+          "sound": "lesson_1/question_20/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "bi",
+          "sound": "lesson_1/question_20/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "beh",
+          "sound": "lesson_1/question_20/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "bah",
+          "sound": "lesson_1/question_20/answer_4.m4a",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 21",
+      "slug": "question_21",
+      "figure": {
+        "word": "לָכֶם",
+        "meaning": "To you",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "loohem",
+          "sound": "lesson_1/question_21/answer_1.m4a"
+        },
+        {
+          "index": 2,
+          "answer": "locham",
+          "sound": "lesson_1/question_21/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "lechim",
+          "sound": "lesson_1/question_21/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "lah-kem",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Question 22",
+      "slug": "question_22",
+      "figure": {
+        "word": "חָלַם",
+        "meaning": "to dream, to heal",
+        "question": "How do you pronounce this word?"
+      },
+      "answers": [
+        {
+          "index": 1,
+          "answer": "chalam",
+          "sound": "lesson_1/question_22/answer_1.m4a",
+          "correct": true
+        },
+        {
+          "index": 2,
+          "answer": "cholem",
+          "sound": "lesson_1/question_22/answer_2.m4a"
+        },
+        {
+          "index": 3,
+          "answer": "cholim",
+          "sound": "lesson_1/question_22/answer_3.m4a"
+        },
+        {
+          "index": 4,
+          "answer": "chelem",
+          "sound": "lesson_1/question_22/answer_4.m4a"
+        }
+      ]
+    }
+  ]
+}
