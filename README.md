@@ -2,6 +2,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+בס״ד
+
 ## About
 
 ```
@@ -10,7 +12,7 @@
  - Mishlei 16:3
 ```
 
-B''H
+[![App Design](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/mock_v3.webp)](https://app.moqups.com/uEk2UmZw30/view)
 
 Over 1 year in development! 🎉
 
@@ -52,7 +54,7 @@ Muslims learning Hebrew.
 
 ### Wireframe Design
 
-[![App Design](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/mock_v3.webp)](https://app.moqups.com/uEk2UmZw30/view)
+[View Our Wireframe v3](https://app.moqups.com/uEk2UmZw30/view)
 
 ### Design Consideration
 
