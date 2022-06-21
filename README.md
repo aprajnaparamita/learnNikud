@@ -108,6 +108,30 @@ test. These unti tests are scored and the user is given 1-5 stars for
 the content in the unit. These scores can be viewed in the My Grades
 section.
 
+### Prayer Mode
+
+The secondary purpose of this app is to spread positive messages to
+Jewish people in a formative and important time - while they are yet new
+to learning Hebrew. The first message is to encourage personal prayers
+of thanksgiving. As Hashem says in Yeshayahu 43:22
+"This people I formed for Myself; they shall recite My praise". King
+David emphasized the importance of this, as did Rebbe Nachman of Breslev
+ZT"L. So the first prayer mode will be 5, 15, and 30 minute pre-written
+prayers of thanksgiving. When the user selects this mode they will see a
+video similar [this one by Rav Shalom
+Arush](https://www.youtube.com/watch?v=jToSmWwQ74g). Then they will be
+able to select the length of their prayer. When the prayer begins it
+will auto-scroll downward at reading spead calculated to reach the time
+selected. Each length will have a separate curated prayer. A timer at
+the top of the screen will show the time remaining.
+
+The second mode is to encourage praying for Israel daily. Again, a video
+will present the benefits and promise that if you pray for the Jewish
+people then you will be blessed. See the booklet [Loving Everyone
+Unconditionally](https://breslev.com/product/loving-everyone-unconditionally/)
+for the prayer text and intention. Again this will function in the same
+way.
+
 ## 2. Technological Considerations (✅)
 
 Several different languages and frameworks were considered for
