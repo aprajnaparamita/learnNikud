@@ -119,7 +119,9 @@ David emphasized the importance of this, as did Rebbe Nachman of Breslev
 ZT"L. So the first prayer mode will be 5, 15, and 30 minute pre-written
 prayers of thanksgiving. When the user selects this mode they will see a
 video similar [this one by Rav Shalom
-Arush](https://www.youtube.com/watch?v=jToSmWwQ74g). Then they will be
+Arush](https://www.youtube.com/watch?v=jToSmWwQ74g). This is presenting
+the ideas in Rav Shalom Arush's book [Say Thank You and See
+Miracles](https://breslev.com/product/the-garden-of-miracles-say-thank-you-and-see-miracles/). Then they will be
 able to select the length of their prayer. When the prayer begins it
 will auto-scroll downward at reading spead calculated to reach the time
 selected. Each length will have a separate curated prayer. A timer at
