@@ -9,25 +9,29 @@
 
 [![App Design](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/mock_v3.webp)](https://app.moqups.com/uEk2UmZw30/view)
 
-Over 1 year in development! 🎉
-
-Welcome to Learn Nikud, my name is Yona Jeffus. I have been a software
-engineer specializing in educational software [for over 20
-years](https://www.linkedin.com/in/janet-jeffus-b0709720/). I
-was learning Hebrew and realized there is no nikud learning app
+Over 1 year in development! 🎉 Give our [updated interactive
+wireframe](https://app.moqups.com/uEk2UmZw30/view) a try.
+Welcome to Learn Nikud, When I was 12 years old I tried to teach myself
+Hebrew and failed. I didn't have a rabbi or anyone to teach me. At the
+time I didn't even know I was Jewish because our family had been
+assimilated into Christian society many years before. As an adult I
+tried again and I and realized there is no nikud learning app
 available free. There are great free apps to learn the Hebrew aleph-bet
 such as [Write
 It-Hebrew](https://apps.apple.com/us/app/write-it-hebrew/id1400944424)
 but there is no 100% free app for lerning nikud. Wouldn't it be amazing
 if there was a professional quality free app that would teach a new
-Hebrew learner from the aleph-bet to dovening in a month or less? That
-is the ultimate vision of this software and repository. The first goal
-is leanring nikud since this is the single biggest missing piece. A
-learner can use [Learn Trope](http://learntrope.com/) to learn the
+Hebrew learner from the aleph-bet to dovening in a month or less? This
+way young people like me would never go without a free teacher ever
+again!
+
+That is the ultimate vision of this software and repository. The first
+goal is leanring nikud since this is the single biggest missing piece.
+A learner can use [Learn Trope](http://learntrope.com/) to learn the
 dovening portion, and I already mentioned one of many for learning the
-names or sounds of the aleph-bet. So this is the first and most critical
-missing piece. There is nothing more precious than teaching the Leshon
-Hakodesh and teaching dovening! Let's make something wonderful!
+shapes or sounds of the aleph-bet. So this is the first and most critical
+missing piece in the free ecosystem. There is nothing more precious
+than teaching the Leshon Hakodesh! Let's make something wonderful!
 
 # Development Stages
 
@@ -43,22 +47,36 @@ Hakodesh and teaching dovening! Let's make something wonderful!
 ### Understanding The Audience
 
 The intended audience is Jews of all ages who are learning Hebrew for the
-first time. This will be the primary and first intended audience,
-followed by non-Jews on a path to conversion, and lastly Christians and
-Muslims learning Hebrew.
+first time. This will be the primary and first intended audience, there
+are many interested people who are not Jewish who may find it useful.
+Many of the diaspora of Israel are awaking and rediscovering their holy
+language. Interntionalization will be a central and fundamental goal of
+this software from the ground up.
 
 ### Wireframe Design
 
-[View Our Wireframe v3](https://app.moqups.com/uEk2UmZw30/view)
+[View the Interactive Wireframe v3](https://app.moqups.com/uEk2UmZw30/view)
 
 ### Design Consideration
 
-There will be 4 main parts of the final application.
+There will be 4 different apps using this same software as a base. The
+first one is Learn Nikud. But the learning program will be:
 
 1. Learn Aleph-Bet
 2. Learn Nikud (first priority)
 3. Learn Trope
-4. Learn Tefillah
+4. Learn Tefillos
+
+In order to allow the widest possible audience design consideration will
+be given to internationalization (i18n) to allow multiple language
+content to be displayed using the same UI/UX. And the download size of
+the final application will need to be minimized to allow the highest
+access for user content while maintaining quality.
+
+Many families will have multiple children or family members who will
+want to sahre the same device. So a basic student account system is a
+core feature. This is a simple passwordless design used to store student
+progress.
 
 Each lesson will be preceding by a full-screen vertical format mobile
 video lesson containing animation, video and songs. After each lesson
@@ -66,17 +84,28 @@ there will be a practice section with questions from the video and
 opportunities to practice. The questions will be multiple choice with
 audio pronunciations for options if applicable. These practice tests are
 not scored, but a user cannot proceed to the next question until they
-have selected the correct answer.
+have selected the correct answer. To be clear, if an answer has an
+associated sound then it will play when the user selects the answer
+from the list. This way they can both see the answer and hear it.
 
 Every X number of questions an ad will play. This ad will be full-screen
-vertical mobile format video of a rabbi advertising their program.
+vertical mobile format video. These will be carefully curated to allow
+every audience to approve of the content. Therefore no normal ad network
+can be used. Instead rabbis, yeshivas, speakers and others will submit
+ads to be included in mobile video format with an associated link.
+One ad to be produced and included will advertise the prayer mode
+feature of the app (desribed later.) The purpose of this ad is to engage
+users in the importance of prayers of thanksgiving and prayers for the
+nation of Israel and the Jewish people.
+
 Clicking anywhere on the video will take the user to the site
-recommended by the rabbi. A small countdown button in the corner will
+recommended by the ad. A small countdown button in the corner will
 allow the user to skip the video after 10 seconds. Sephardic or common
-Israeli pronouciation will be used on since it allows both for Torah
+Israeli pronouciation will be used since it allows both for Torah
 study and modern Hebrew usage. Every 2 lessons there will be a unit
 test. These unti tests are scored and the user is given 1-5 stars for
-the content in the unit.
+the content in the unit. These scores can be viewed in the My Grades
+section.
 
 ## 2. Technological Considerations (✅)
 
@@ -90,7 +119,7 @@ videos. And the wonderful [OpenShot Video
 Editor](https://www.openshot.org) is being used to combine the lesson
 videos and create the final HD lessons.
 
-## 3. Writing Lesson Plans (Current Stage) (💪)
+## 3. Writing Lesson Plans (Current Stage) (✅)
 
 In order to teach the most common words I needed a way to objectively
 select the best examples for the lessons. Hebrew University's word
@@ -119,7 +148,7 @@ ensure the material is effecticely teaching a student the correct way.
 
 ### Recording App
 
-In order to make the answers anf letter recordings quickly and easily
+In order to make the answers and sound/speech recordings quickly and easily
 I created the Learn Nikud Pronunciation Recording App available here:
 
 https://github.com/hexatridecimal/learnNikud/tree/main/data/pronunciation_recording_app
@@ -129,12 +158,12 @@ See the recording guide:
 [![Nikud Pronunciation Sound Collection App](http://img.youtube.com/vi/z1mszMaORAI/0.jpg)](http://www.youtube.com/watch?v=z1mszMaORAI "Nikud Pronunciation Sound Collection App")
 
 This way native speakers can critique the lesson plans, edit them
-and provide native recordings of pronunciations. 
+and provide native recordings of pronunciations.
 
 ## 5. Video Editing and Production (☑️)
 
-Each lesson for each video will be edited and put together in DaVinci
-Resolve and rendered to 1080x1920 mobile video format. Recording files
+Each lesson for each video will be edited and put together in OpenShot
+ and rendered to 1080x1920 mobile video format. Recording files
 made by the recording app will be used where necessary.
 
 ## 6. App Development (☑️)
