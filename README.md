@@ -10,7 +10,8 @@
 [![App Design](https://raw.githubusercontent.com/hexatridecimal/learnNikud/main/graphics/mock_v3.webp)](https://app.moqups.com/uEk2UmZw30/view)
 
 Over 1 year in development! 🎉 Give our [updated interactive
-wireframe](https://app.moqups.com/uEk2UmZw30/view) a try.
+wireframe](https://app.moqups.com/uEk2UmZw30/view) a try, or read the
+[Learn Nikud Lesson Plans](https://github.com/hexatridecimal/learnNikud/raw/main/data/lesson_plans/Learn%20Nikud%20-%20Lesson%20Plans.odt).
 Welcome to Learn Nikud, When I was 12 years old I tried to teach myself
 Hebrew and failed. I didn't have a rabbi or anyone to teach me. At the
 time I didn't even know I was Jewish because our family had been
