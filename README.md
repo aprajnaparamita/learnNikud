@@ -1,6 +1,5 @@
-# Learn Nikud בס״ד
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Learn Nikud            בס״ד
 
 ```
  גֹּ֣ל אֶל־יְהוָ֣ה מַעֲשֶֹ֑יךָ וְ֜יִכֹּ֗נוּ מַחְשְׁבֹתֶֽיךָ
