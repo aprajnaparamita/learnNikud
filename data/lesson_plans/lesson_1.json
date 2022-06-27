@@ -3,6 +3,7 @@
   "slug": "lesson_1",
   "video_intro": "lesson_1/lesson_1_intro.mp4",
   "summary": "",
+  "is_test": "false",
   "questions": [
     {
       "title": "Question 1",

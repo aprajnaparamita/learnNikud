@@ -14,8 +14,7 @@ wireframe](https://app.moqups.com/uEk2UmZw30/view) a try, or read the
 [Learn Nikud Lesson Plans](https://github.com/hexatridecimal/learnNikud/raw/main/data/lesson_plans/Learn%20Nikud%20-%20Lesson%20Plans.odt).
 Welcome to Learn Nikud, When I was 12 years old I tried to teach myself
 Hebrew and failed. I didn't have a rabbi or anyone to teach me. At the
-time I didn't even know I was Jewish because our family had been
-assimilated into Christian society many years before. As an adult I
+time As an adult I 
 tried again and I and realized there is no nikud learning app
 available free. There are great free apps to learn the Hebrew aleph-bet
 such as [Write
