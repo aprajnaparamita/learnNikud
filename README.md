@@ -130,8 +130,13 @@ The second mode is to encourage praying for Israel daily. Again, a video
 will present the benefits and promise that if you pray for the Jewish
 people then you will be blessed. See the booklet [Loving Everyone
 Unconditionally](https://breslev.com/product/loving-everyone-unconditionally/)
-for the prayer text and intention. Again this will function in the same
-way.
+for the cencept behind the prayer text and intention. To be clear this will
+not be the same text but will be written from scratch with the ame idea.
+Unless of course Rav Arush gives permission to use it. A copy of the
+Tikkun HaKlalli will be included. Each prayer mode will function the same.
+The prayer will auto-advance at the rate to match the time selected.
+If the user choooses to manually control it by dragging the prayer 
+up or down then they can manually pray at their own rate.
 
 ## 2. Technological Considerations (✅)
 
